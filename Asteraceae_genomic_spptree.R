@@ -20,12 +20,17 @@ spplist <- c("Centaurea diffusa","Artemisia frigida","Jacobaea vulgaris",
 # 
 # Make the tree
 # 
-# Plain species tree
+# species tree with sub-genera detail (minus three species)
 # 
 tree <- phylomatic_tree(taxa = spplist, storedtree='smith2011')
 tree$tip.label <- taxize_capwords(tree$tip.label)
 
-png("Asteraceae_plastome_tree.png", width=600, height = 600, pointsize = 16)
+# species tree with all of the species 
+tree <- phylomatic_tree(taxa = spplist)
+tree$tip.label <- taxize_capwords(tree$tip.label)
+
+
+png("Asteraceae_plastome_treeSmith.png", width=600, height = 600, pointsize = 16)
 
 plot(tree, cex=0.75, main="Published plastomes from the Asteraceae")
 

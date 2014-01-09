@@ -9,12 +9,28 @@ plot(sub1$multiplicity, sub1$frequency, type="hist")
 sub<-subset(dat, multiplicity>200)
 sub1<-subset(sub,sub$multiplicity<1000)
 plot(sub1$multiplicity, sub1$frequency, type="hist")
-sub<-subset(dat, multiplicity>10)
-plot(sub$multiplicity, sub$frequency, type="hist")
+
 sub<-subset(dat, multiplicity>10)
 sub1<-subset(sub,sub$multiplicity<600)
 plot(sub1$multiplicity, sub1$frequency, type="hist")
 # detach(dat)
+
+sub<-subset(dat, multiplicity>10)
+plot(sub$multiplicity, sub$frequency, type="hist")
+
+qplot(data=sub, multiplicity, frequency)
+
+png("kmercount.png",width=800, height = 600, pointsize = 16)
+ggplot(sub, aes(multiplicity, frequency))+geom_bar(stat="identity")+xlab("k-mer Multiplicity")+ylab("k-mer Frequency")
+dev.off()
+# pdf("KTurnerFig2.pdf", useDingbats=FALSE, width=13.38)
+# # png("STsizebox_color.png",width=800, height = 600, pointsize = 16)
+# postscript("KTurnerFig2.eps", horizontal = FALSE, onefile = FALSE, paper = "special", height = 7, width = 13.38)
+# #
+# multiplot(p1,p2,p3, cols=3) #all st plots, code for p3 LH plot below
+# dev.off()
+
+
 
 #PhiX
 dat <- read.table("HI.0767.001.Index_1.TR001_1L.TO.9626372.k31.hist", head=T)
@@ -221,3 +237,40 @@ Minima.mer(dat, window = 4, extra=TRUE)
 # ?loess
 # ?supsmu
 # ?spline 
+
+#########################################
+multiplot <- function(..., plotlist=NULL, file, cols=1, layout=NULL) {
+  require(grid)
+  
+  # Make a list from the ... arguments and plotlist
+  plots <- c(list(...), plotlist)
+  
+  numPlots = length(plots)
+  
+  # If layout is NULL, then use 'cols' to determine layout
+  if (is.null(layout)) {
+    # Make the panel
+    # ncol: Number of columns of plots
+    # nrow: Number of rows needed, calculated from # of cols
+    layout <- matrix(seq(1, cols * ceiling(numPlots/cols)),
+                     ncol = cols, nrow = ceiling(numPlots/cols))
+  }
+  
+  if (numPlots==1) {
+    print(plots[[1]])
+    
+  } else {
+    # Set up the page
+    grid.newpage()
+    pushViewport(viewport(layout = grid.layout(nrow(layout), ncol(layout))))
+    
+    # Make each plot, in the correct location
+    for (i in 1:numPlots) {
+      # Get the i,j matrix positions of the regions that contain this subplot
+      matchidx <- as.data.frame(which(layout == i, arr.ind = TRUE))
+      
+      print(plots[[i]], vp = viewport(layout.pos.row = matchidx$row,
+                                      layout.pos.col = matchidx$col))
+    }
+  }
+}
