@@ -1,0 +1,114 @@
+# BLASTN 2.2.25+
+# Query: contig-0 162 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-2 2348 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-2	supercontig1	100.00	2348	0	0	1	2348	124729	127076	0.0	4337
+# BLASTN 2.2.25+
+# Query: contig-5 27244 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+contig-5	supercontig1	99.99	23316	1	1	3929	27244	66016	89330	0.0	4.304e+04
+contig-5	supercontig1	99.97	3946	1	0	1	3946	84935	80990	0.0	7282
+contig-5	supercontig1	95.83	48	2	0	12635	12682	74769	74722	7e-15	78.7
+# BLASTN 2.2.25+
+# Query: contig-6 5390 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-6	supercontig1	100.00	5390	0	0	1	5390	98814	93425	0.0	9954
+# BLASTN 2.2.25+
+# Query: contig-1000006 4859 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-1000006	supercontig1	100.00	4859	0	0	1	4859	109170	104312	0.0	8973
+# BLASTN 2.2.25+
+# Query: contig-7 1234 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-7	supercontig1	100.00	1234	0	0	1	1234	103078	104311	0.0	2279
+# BLASTN 2.2.25+
+# Query: contig-8 1133 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-8	supercontig1	100.00	1133	0	0	1	1133	91874	93006	0.0	2093
+# BLASTN 2.2.25+
+# Query: contig-9 747 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-9	supercontig1	100.00	747	0	0	1	747	91825	91079	0.0	1380
+# BLASTN 2.2.25+
+# Query: contig-10 403 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-10	supercontig1	100.00	403	0	0	1	403	93411	93009	0.0	 745
+# BLASTN 2.2.25+
+# Query: contig-13 11940 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+contig-13	supercontig1	100.00	11940	0	0	1	11940	12000	61	0.0	2.205e+04
+contig-13	supercontig1	100.00	343	0	0	1	343	12925	12583	0.0	 634
+contig-13	supercontig1	79.57	93	10	9	3418	3506	45591	45678	4e-09	58.4
+# BLASTN 2.2.25+
+# Query: contig-17 4256 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-17	supercontig1	99.49	4278	0	4	1	4256	98815	103092	0.0	7758
+# BLASTN 2.2.25+
+# Query: contig-18 15078 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 3 hits found
+contig-18	supercontig1	100.00	15078	0	0	1	15078	124248	109171	0.0	2.784e+04
+contig-18	supercontig1	100.00	558	0	0	14414	14971	128323	128880	0.0	1031
+contig-18	supercontig1	100.00	42	0	0	4024	4065	43951	43910	4e-15	78.7
+# BLASTN 2.2.25+
+# Query: contig-1000018 1821 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-1000018	supercontig1	100.00	1821	0	0	1	1821	127060	128880	0.0	3363
+contig-1000018	supercontig1	100.00	558	0	0	1264	1821	109835	109278	0.0	1031
+# BLASTN 2.2.25+
+# Query: contig-20 71791 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 7 hits found
+contig-20	supercontig1	99.99	52885	3	1	1	52884	13149	66033	0.0	9.764e+04
+contig-20	supercontig1	100.00	14993	0	0	52871	67863	81008	66016	0.0	2.769e+04
+contig-20	supercontig1	99.97	3946	1	0	67846	71791	80990	84935	0.0	7282
+contig-20	supercontig1	99.72	362	0	1	1	361	12224	12585	0.0	 662
+contig-20	supercontig1	95.83	48	2	0	59110	59157	74722	74769	2e-14	78.7
+contig-20	supercontig1	100.00	42	0	0	30762	30803	120184	120225	2e-14	78.7
+contig-20	supercontig1	79.57	93	10	9	32443	32530	8583	8495	2e-08	58.4
+# BLASTN 2.2.25+
+# Query: contig-22 1702 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-22	supercontig1	100.00	1702	0	0	1	1702	91032	89331	0.0	3144
+# BLASTN 2.2.25+
+# Query: contig-1000022 114 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-23 163 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-1000023 114 nucleotides
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLAST processed 18 queries

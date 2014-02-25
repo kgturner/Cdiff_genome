@@ -1,0 +1,16 @@
+# BLASTN 2.2.25+
+# Query: supercontig1
+# Subject: supercontig1
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+supercontig1	supercontig1	100.00	128820	0	0	61	128880	61	128880	0.0	2.379e+05
+supercontig1	supercontig1	99.89	928	0	1	12583	13509	11658	12585	0.0	1707
+supercontig1	supercontig1	99.89	928	0	1	11658	12585	12583	13509	0.0	1707
+supercontig1	supercontig1	100.00	558	0	0	128323	128880	109835	109278	0.0	1031
+supercontig1	supercontig1	100.00	558	0	0	109278	109835	128880	128323	0.0	1031
+supercontig1	supercontig1	100.00	42	0	0	120184	120225	43910	43951	3e-14	78.7
+supercontig1	supercontig1	95.83	48	2	0	74722	74769	74769	74722	3e-14	78.7
+supercontig1	supercontig1	100.00	42	0	0	43910	43951	120184	120225	3e-14	78.7
+supercontig1	supercontig1	79.57	93	10	9	45591	45678	8583	8495	4e-08	58.4
+supercontig1	supercontig1	79.57	93	10	9	8495	8583	45678	45591	4e-08	58.4
+# BLAST processed 1 queries

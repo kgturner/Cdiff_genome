@@ -1,0 +1,52 @@
+# BLASTN 2.2.25+
+# Query: supercontig1 nrcontigs: 15 length: 128826
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 16 hits found
+supercontig1	supercontig1	100.00	52885	1	0	12976	65860	13149	66033	0.0	9.766e+04
+supercontig1	supercontig1	99.87	32401	12	7	91696	124093	91874	124248	0.0	5.960e+04
+supercontig1	supercontig1	100.00	25017	0	0	65876	90892	66016	91032	0.0	4.620e+04
+supercontig1	supercontig1	100.00	11940	0	0	1	11940	61	12000	0.0	2.205e+04
+supercontig1	supercontig1	100.00	2347	0	0	124635	126981	124729	127075	0.0	4335
+supercontig1	supercontig1	100.00	1821	0	0	127006	128826	127060	128880	0.0	3363
+supercontig1	supercontig1	100.00	747	0	0	90936	91682	91079	91825	0.0	1380
+supercontig1	supercontig1	100.00	558	0	0	128269	128826	109835	109278	0.0	1031
+supercontig1	supercontig1	100.00	558	0	0	109123	109680	128880	128323	0.0	1031
+supercontig1	supercontig1	99.72	362	0	1	12976	13336	12224	12585	0.0	 662
+supercontig1	supercontig1	100.00	343	0	0	11598	11940	12583	12925	0.0	 634
+supercontig1	supercontig1	100.00	42	0	0	120029	120070	43910	43951	3e-14	78.7
+supercontig1	supercontig1	95.83	48	2	0	74582	74629	74769	74722	3e-14	78.7
+supercontig1	supercontig1	100.00	42	0	0	43737	43778	120184	120225	3e-14	78.7
+supercontig1	supercontig1	79.57	93	10	9	45418	45505	8583	8495	4e-08	58.4
+supercontig1	supercontig1	79.57	93	10	9	8435	8523	45678	45591	4e-08	58.4
+# BLASTN 2.2.25+
+# Query: contig-3000013 length:100
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-6 length:254
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-6	supercontig1	86.73	211	9	10	1	206	1507	1703	1e-58	 217
+# BLASTN 2.2.25+
+# Query: contig-2000016 length:200
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-2000016	supercontig1	98.46	65	1	0	1	65	60780	60844	4e-28	 115
+# BLASTN 2.2.25+
+# Query: contig-1000008 length:120
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-1000002 length:114
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-18 length:107
+# Database: TR001_1L.plastid.0.2.withNs.fa
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 1 hits found
+contig-18	supercontig1	100.00	28	0	0	80	107	40113	40086	1e-09	52.8
+# BLAST processed 7 queries

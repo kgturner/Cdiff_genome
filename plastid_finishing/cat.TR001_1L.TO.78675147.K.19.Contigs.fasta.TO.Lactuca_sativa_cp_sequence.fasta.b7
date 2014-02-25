@@ -1,0 +1,139 @@
+# BLASTN 2.2.25+
+# Query: contig-0 162 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-2 2348 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-2	gi|78675147|dbj|AP007232.1|	87.30	1299	83	39	1	1267	124041	125289	0.0	1410
+contig-2	gi|78675147|dbj|AP007232.1|	87.22	1088	103	28	1284	2347	125273	126348	0.0	1206
+# BLASTN 2.2.25+
+# Query: contig-5 27244 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+contig-5	gi|78675147|dbj|AP007232.1|	95.87	23566	547	215	3928	27239	65450	88843	0.0	3.774e+04
+contig-5	gi|78675147|dbj|AP007232.1|	99.35	4742	26	4	22501	27239	152765	148026	0.0	8580
+contig-5	gi|78675147|dbj|AP007232.1|	95.51	3990	107	43	1	3942	84455	80490	0.0	6311
+contig-5	gi|78675147|dbj|AP007232.1|	98.30	352	3	2	1	349	152414	152765	5e-176	 614
+contig-5	gi|78675147|dbj|AP007232.1|	97.92	48	1	0	12635	12682	74258	74211	2e-16	84.2
+# BLASTN 2.2.25+
+# Query: contig-6 5390 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-6	gi|78675147|dbj|AP007232.1|	98.52	5417	41	23	2	5388	98261	92854	0.0	9524
+contig-6	gi|78675147|dbj|AP007232.1|	98.52	5417	41	23	2	5388	138608	144015	0.0	9524
+# BLASTN 2.2.25+
+# Query: contig-1000006 4859 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-1000006	gi|78675147|dbj|AP007232.1|	99.16	4854	28	9	3	4849	108589	103742	0.0	8724
+contig-1000006	gi|78675147|dbj|AP007232.1|	99.16	4854	28	9	3	4849	128280	133127	0.0	8724
+# BLASTN 2.2.25+
+# Query: contig-7 1234 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-7	gi|78675147|dbj|AP007232.1|	99.51	1221	5	1	7	1227	102529	103748	0.0	2220
+contig-7	gi|78675147|dbj|AP007232.1|	99.51	1221	5	1	7	1227	134340	133121	0.0	2220
+# BLASTN 2.2.25+
+# Query: contig-8 1133 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-8	gi|78675147|dbj|AP007232.1|	98.57	1122	16	0	1	1122	91325	92446	0.0	1984
+contig-8	gi|78675147|dbj|AP007232.1|	98.57	1122	16	0	1	1122	145544	144423	0.0	1984
+# BLASTN 2.2.25+
+# Query: contig-9 747 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-9	gi|78675147|dbj|AP007232.1|	97.72	745	15	2	1	744	91312	90569	0.0	1280
+contig-9	gi|78675147|dbj|AP007232.1|	97.72	745	15	2	1	744	145557	146300	0.0	1280
+# BLASTN 2.2.25+
+# Query: contig-10 403 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-10	gi|78675147|dbj|AP007232.1|	97.19	392	11	0	4	395	92844	92453	0.0	 664
+contig-10	gi|78675147|dbj|AP007232.1|	97.19	392	11	0	4	395	144025	144416	0.0	 664
+# BLASTN 2.2.25+
+# Query: contig-13 11940 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 5 hits found
+contig-13	gi|78675147|dbj|AP007232.1|	92.54	9625	335	181	2539	11938	9474	8	0.0	1.344e+04
+contig-13	gi|78675147|dbj|AP007232.1|	88.75	2223	126	62	389	2536	11923	9750	0.0	2606
+contig-13	gi|78675147|dbj|AP007232.1|	95.89	73	3	0	51	123	12307	12235	2e-27	 119
+contig-13	gi|78675147|dbj|AP007232.1|	100.00	59	0	0	11512	11570	380	438	1e-24	 110
+contig-13	gi|78675147|dbj|AP007232.1|	79.80	99	10	10	3418	3512	45004	45096	1e-10	63.9
+# BLASTN 2.2.25+
+# Query: contig-17 4256 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-17	gi|78675147|dbj|AP007232.1|	98.48	4276	29	9	5	4248	98252	102523	0.0	7504
+contig-17	gi|78675147|dbj|AP007232.1|	98.48	4276	29	9	5	4248	138617	134346	0.0	7504
+# BLASTN 2.2.25+
+# Query: contig-18 15078 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 10 hits found
+contig-18	gi|78675147|dbj|AP007232.1|	94.74	5060	208	33	180	5223	123366	118349	0.0	7817
+contig-18	gi|78675147|dbj|AP007232.1|	95.41	3591	113	30	5255	8815	118350	114782	0.0	5670
+contig-18	gi|78675147|dbj|AP007232.1|	92.09	3603	173	59	10874	14412	112693	109139	0.0	4972
+contig-18	gi|78675147|dbj|AP007232.1|	93.25	1260	52	18	8810	10044	114757	113506	0.0	1825
+contig-18	gi|78675147|dbj|AP007232.1|	95.45	660	24	1	14414	15073	127629	128282	0.0	1048
+contig-18	gi|78675147|dbj|AP007232.1|	97.12	556	10	1	14518	15073	109136	108587	0.0	 933
+contig-18	gi|78675147|dbj|AP007232.1|	90.91	341	18	10	10043	10371	113540	113201	1e-125	 446
+contig-18	gi|78675147|dbj|AP007232.1|	84.11	453	36	14	10367	10791	113138	112694	2e-113	 405
+contig-18	gi|78675147|dbj|AP007232.1|	90.71	140	11	2	1	139	123500	123362	3e-47	 185
+contig-18	gi|78675147|dbj|AP007232.1|	97.62	42	1	0	4024	4065	43378	43337	2e-13	73.1
+# BLASTN 2.2.25+
+# Query: contig-1000018 1821 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-1000018	gi|78675147|dbj|AP007232.1|	85.14	1857	156	75	37	1821	126372	128180	0.0	1790
+contig-1000018	gi|78675147|dbj|AP007232.1|	96.70	454	9	1	1368	1821	109136	108689	0.0	 750
+# BLASTN 2.2.25+
+# Query: contig-20 71791 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 12 hits found
+contig-20	gi|78675147|dbj|AP007232.1|	96.52	17537	470	83	35	17487	12592	30071	0.0	2.887e+04
+contig-20	gi|78675147|dbj|AP007232.1|	95.27	18367	462	212	17541	35677	30070	48260	0.0	2.873e+04
+contig-20	gi|78675147|dbj|AP007232.1|	94.96	15197	419	168	52874	67864	80505	65450	0.0	2.350e+04
+contig-20	gi|78675147|dbj|AP007232.1|	94.47	7104	212	84	37938	44967	50578	57574	0.0	1.077e+04
+contig-20	gi|78675147|dbj|AP007232.1|	95.14	4525	131	41	48385	52891	61023	65476	0.0	7055
+contig-20	gi|78675147|dbj|AP007232.1|	95.51	3990	107	43	67850	71791	80490	84455	0.0	6311
+contig-20	gi|78675147|dbj|AP007232.1|	91.42	3474	142	93	44953	48347	57635	61031	0.0	4621
+contig-20	gi|78675147|dbj|AP007232.1|	95.39	2191	64	18	35674	37844	48408	50581	0.0	3452
+contig-20	gi|78675147|dbj|AP007232.1|	98.30	352	3	2	71443	71791	152765	152414	1e-175	 614
+contig-20	gi|78675147|dbj|AP007232.1|	97.92	48	1	0	59110	59157	74211	74258	5e-16	84.2
+contig-20	gi|78675147|dbj|AP007232.1|	100.00	39	0	0	30765	30803	119516	119554	1e-12	73.1
+contig-20	gi|78675147|dbj|AP007232.1|	79.79	94	8	11	32443	32530	8636	8548	3e-08	58.4
+# BLASTN 2.2.25+
+# Query: contig-22 1702 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+contig-22	gi|78675147|dbj|AP007232.1|	99.11	1692	15	0	6	1697	90526	88835	0.0	3042
+contig-22	gi|78675147|dbj|AP007232.1|	99.11	1692	15	0	6	1697	146343	148034	0.0	3042
+# BLASTN 2.2.25+
+# Query: contig-1000022 114 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-23 163 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# 0 hits found
+# BLASTN 2.2.25+
+# Query: contig-1000023 114 nucleotides
+# Database: Lactuca_sativa_cp_sequence.fasta
+# 0 hits found
+# BLAST processed 18 queries

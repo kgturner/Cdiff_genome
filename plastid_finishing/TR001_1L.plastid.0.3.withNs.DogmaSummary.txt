@@ -1,0 +1,131 @@
+69	143	trnH-GUG	-	A	N	tRNA-	
+527	1585	psbA	-	A	N	photosystem II protein D1	
+2115	3632	matK	-	A	N	maturase K	
+4367	4403	trnK-UUU	-	A	N	tRNA-	
+5192	5404	rps16	-	A	N	ribosomal protein S16	
+7230	7301	trnQ-UUG	-	A	N	tRNA-	
+7661	7837	psbK	+	A	N	photosystem II protein K	
+8221	8352	psbI	+	A	N	photosystem II protein I	
+8496	8583	trnS-GCU	-	A	N	tRNA-	
+9376	9456	trnC-GCA	+	A	N	tRNA-	
+9979	10071	petN	+	A	N	cytochrome b6/f complex subunit VIII	
+10583	10684	psbM	-	A	N	photosystem II protein M	
+11331	11404	trnD-GUC	-	A	N	tRNA-	
+11518	11601	trnY-GUA	-	A	N	tRNA-	
+12657	15848	rpoB	+	A	N	RNA polymerase beta subunit	
+15866	16324	rpoC1	+	A	N	RNA polymerase beta	
+17026	18636	rpoC1	+	A	N	RNA polymerase beta	
+18783	22922	rpoC2	+	A	N	RNA polymerase beta" subunit	
+23171	23878	rps2	+	A	N	ribosomal protein S2	
+24097	24837	atpI	+	A	N	 ATP synthase CF0 subunit IV	
+25983	26225	atpH	+	A	N	ATP synthase CF0 subunit III	
+26594	26752	atpF	+	A	N	ATP synthase CF0 subunit I	
+27385	27852	atpF	+	A	N	ATP synthase CF0 subunit I	
+27920	29440	atpA	+	A	N	ATP synthase CF1 alpha subunit	
+29576	29647	trnR-UCU	-	A	N	tRNA-	
+30848	30919	trnT-GGU	+	A	N	tRNA-	
+32095	33153	psbD	+	A	N	photosystem II protein D2	
+33065	34522	psbC	+	A	N	photosystem II CP43 chlorophyll apoprotein	
+34760	34842	trnS-UGA	-	A	N	tRNA-	
+35180	35365	lhbA	+	A	N	no product string in file	
+35683	35753	trnG-UCC	+	A	N	tRNA-	
+35940	36013	trnfM-CAU	-	A	N	tRNA-	
+36171	36470	rps14	-	A	N	ribosomal protein S14	
+36607	38808	psaB	-	A	N	photosystem I P700 apoprotein A2	
+38837	41086	psaA	-	A	N	photosystem I P700 apoprotein A1	
+41830	41979	ycf3	-	A	N	hypothetical chloroplast RF34	
+42722	42949	ycf3	-	A	N	hypothetical chloroplast RF34	
+43642	43767	ycf3	-	A	N	hypothetical chloroplast RF34	
+44666	44752	trnS-GGA	+	A	N	tRNA-	
+45067	45669	rps4	-	A	N	ribosomal protein S4	
+46022	46094	trnT-UGU	-	A	N	tRNA-	
+46635	46671	trnL-UAA	+	A	N	tRNA-	
+47112	47161	trnL-UAA	+	A	N	tRNA-	
+47530	47599	trnF-GAA	+	A	N	tRNA-	
+48079	48552	ndhJ	-	A	N	NADH-plastoquinone oxidoreductase subunit J	
+48659	49504	ndhK	-	A	N	NADH-plastoquinone oxidoreductase subunit K	
+49387	49746	ndhC	-	A	N	NADH-plastoquinone oxidoreductase subunit 3	
+50900	50936	trnV-UAC	-	A	N	tRNA-	
+51511	51548	trnV-UAC	-	A	N	tRNA-	
+51709	51781	trnM-CAU	+	A	N	tRNA-	
+52002	52400	atpE	-	A	N	 ATP synthase CF1 epsilon subunit	
+52400	53875	atpB	-	A	N	 ATP synthase CF1 beta subunit	
+54673	56097	rbcL	+	A	N	ribulose 1,5-bisphosphate carboxylase/oxygenase large subunit	
+56609	58117	accD	+	A	N	Acetyl-CoA carboxylase carboxyltransferase beta subunit	
+58794	58901	psaI	+	A	N	photosystem I subunit VIII	
+59311	59862	ycf4	+	A	N	photosystem I assembly protein ycf4	
+60714	61400	cemA	+	A	N	chloroplast envelope membrane protein	
+61636	62595	petA	+	A	N	cytochrome f	
+63413	63532	psbJ	-	A	N	photosystem II protein J	
+63684	63797	psbL	-	A	N	photosystem II protein L	
+63823	63939	psbF	-	A	N	photosystem II cytochrome b559 beta subunit	
+63952	64200	psbE	-	A	N	photosystem II cytochrome b559 alpha subunit	
+65492	65584	petL	+	A	N	cytochrome b6/f complex subunit VI	
+65750	65860	petG	+	A	N	cytochrome b6/f complex subunit V	
+65981	66054	trnW-CCA	-	A	N	tRNA-	
+66219	66292	trnP-UGG	-	A	N	tRNA-	
+66221	66291	trnP-GGG	-	A	N	tRNA-	
+66600	66731	psaJ	+	A	N	photosystem I subunit IX	
+67173	67370	rpl33	+	A	N	ribosomal protein L33	
+67553	67855	rps18	+	A	N	ribosomal protein S18	
+68110	68484	rpl20	-	A	N	ribosomal protein L20	
+69230	69343	rps12	-	A	N	ribosomal protein S12	
+69502	69726	clpP	-	A	N	clp protease proteolytic subunit 	
+70343	70633	clpP	-	A	N	clp protease proteolytic subunit 	
+71440	71508	clpP	-	A	N	clp protease proteolytic subunit 	
+71958	73481	psi_psbT	+	A	N	no product string in file	
+73659	73772	psbT	+	A	N	photosystem II protein T	
+73846	73974	psbN	-	A	N	photosystem II protein N	
+74077	74295	psbH	+	A	N	photosystem II phosphoprotein	
+75188	75838	petB	+	A	N	cytochrome b6	
+76685	77227	petD	+	A	N	cytochrome b6/f complex subunit IV	
+77425	78429	rpoA	-	A	N	RNA polymerase alpha subunit	
+78513	78920	rps11	-	A	N	ribosomal protein S11	
+79029	79139	rpl36	-	A	N	 ribosomal protein L36	
+79258	79488	infA	-	A	N	translational initiation factor 1	
+79613	80014	rps8	-	A	N	ribosomal protein S8	
+80197	80562	rpl14	-	A	N	ribosomal protein L14	
+80685	81080	rpl16	-	A	N	ribosomal protein L16	
+82256	82918	rps3	-	A	N	ribosomal protein S3	
+82906	83376	rpl22	-	A	N	ribosomal protein L22	
+83446	83721	rps19	-	A	N	ribosomal protein S19	
+83779	84210	rpl2	-	A	N	ribosomal protein L2	
+84875	85267	rpl2	-	A	N	ribosomal protein L2	
+85289	85567	rpl23	-	A	N	ribosomal protein L23	
+85733	85806	trnI-CAU	-	A	N	tRNA-	
+85918	88404	ycf2	+	A	N	hypothetical chloroplast RF21	
+93212	93292	trnL-CAA	-	A	N	tRNA-	
+93873	94625	ndhB	-	A	N	NADH-plastoquinone oxidoreductase subunit 2	
+95292	96068	ndhB	-	A	N	NADH-plastoquinone oxidoreductase subunit 2	
+96361	96825	rps7	-	A	N	ribosomal protein S7	
+97420	97671	rps12_3end	-	A	N	ribosomal protein S12, 3	
+97432	97671	rps12	-	A	N	ribosomal protein S12	
+98652	98840	ycf15	-	A	N	hypothetical chloroplast RF15	
+99531	99602	trnV-GAC	+	A	N	tRNA-	
+99830	101319	rrn16	+	A	N	16S ribosomal RNA	
+101614	101656	trnI-GAU	+	A	N	tRNA-	
+102594	102628	trnI-GAU	+	A	N	tRNA-	
+102693	102730	trnA-UGC	+	A	N	tRNA-	
+102863	102997	orf42	-	A	N	no product string in file	
+103199	103312	orf56	-	A	N	no product string in file	
+103570	103604	trnA-UGC	+	A	N	tRNA-	
+103757	106565	rrn23	+	A	N	23S ribosomal RNA	
+106665	106767	rrn4.5	+	A	N	4.5 ribosomal RNA	
+107013	107133	rrn5	+	A	N	5 ribosomal RNA	
+107385	107458	trnR-ACG	+	A	N	tRNA-	
+107924	107996	trnN-GUU	-	A	N	tRNA-	
+108329	108910	ycf1	+	A	N	hypothetical chloroplast RF19	
+108928	111144	ndhF	-	A	N	NADH-plastoquinone oxidoreductase subunit 5	
+112177	112326	rpl32	+	A	N	ribosomal protein L32	
+113157	113236	trnL-UAG	+	A	N	tRNA-	
+113381	114334	ccsA	+	A	N	cytochrome c heme attachment protein	
+114593	116092	ndhD	-	A	N	NADH-plastoquinone oxidoreductase subunit 4	
+116214	116456	psaC	-	A	N	photosystem I subunit VII	
+116696	116998	ndhE	-	A	N	NADH-plastoquinone oxidoreductase subunit 4L	
+117219	117746	ndhG	-	A	N	NADH-plastoquinone oxidoreductase subunit 6	
+118110	118604	ndhI	-	A	N	NADH-plastoquinone oxidoreductase subunit I	
+118686	119222	ndhA	-	A	N	NADH-plastoquinone oxidoreductase subunit 1	
+120271	120834	orf188	-	A	N	no product string in file	
+120283	120834	ndhA	-	A	N	NADH-plastoquinone oxidoreductase subunit 1	
+120839	122017	ndhH	-	A	N	NADH-plastoquinone oxidoreductase subunit 7	
+122112	122390	rps15	-	A	N	ribosomal protein S15	
