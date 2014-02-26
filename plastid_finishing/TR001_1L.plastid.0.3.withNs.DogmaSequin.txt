@@ -1,4 +1,4 @@
->Features supercontig1
+>Features Plastid [organism=Centaurea diffusa]
 143	69	gene
 			gene	trnH-GUG
 143	69	tRNA
