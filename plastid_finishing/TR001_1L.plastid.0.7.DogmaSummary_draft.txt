@@ -1,8 +1,9 @@
+Start	End	GeneName	Strand	Annotated	Exon	GeneInfo
 4	78	trnH-GUG	-	A	N	tRNA-	
 459	1520	psbA	-	A	N	photosystem II protein D1	
 2050	3567	matK	-	A	N	maturase K	
 4302	4338	trnK-UUU	-	A	N	tRNA-	
-5127	5339	rps16	-
+5115	5429	rps16	-	A	N	ribosomal protein S16	
 7165	7236	trnQ-UUG	-	A	N	tRNA-	
 7596	7775	psbK	+	A	N	photosystem II protein K	
 8180	8290	psbI	+	A	N	photosystem II protein I	
@@ -69,7 +70,7 @@
 67108	67308	rpl33	+	A	N	ribosomal protein L33	
 67488	67793	rps18	+	A	N	ribosomal protein S18	
 68039	68419	rpl20	-	A	N	ribosomal protein L20	
-69165	69278	rps12	-
+69165	69278	rps12	-	A	N	ribosomal protein S12	trans_splicing
 69434	69664	clpP	-	A	E	clp protease proteolytic subunit 	
 70278	70568	clpP	-	A	E	clp protease proteolytic subunit 	
 71375	71443	clpP	-	A	E	clp protease proteolytic subunit 	
@@ -99,7 +100,7 @@
 95217	95993	ndhB	-	A	E	NADH-plastoquinone oxidoreductase subunit 2	
 96283	96750	rps7	-	A	N	ribosomal protein S7	
 97345	97596	rps12_3end	-
-97357	97596	rps12	-
+97345	97596	rps12	-	A	N	ribosomal protein S12, 3	trans_splicing
 98578	98769	ycf15	-	A	N	hypothetical chloroplast RF15	
 99460	99531	trnV-GAC	+	A	N	tRNA-	
 99759	101248	rrn16	+	A	N	16S ribosomal RNA	
@@ -145,6 +146,7 @@
 136625	136696	trnV-GAC	-	A	N	tRNA-	
 137387	137578	ycf15	+	A	N	hypothetical chloroplast RF15	
 138560	138811	rps12_3end	+
+138560	138874	rps12	+	A	N	ribosomal protein S12, 3	trans_splicing
 139406	139873	rps7	+	A	N	ribosomal protein S7	
 140163	140957	ndhB	+	A	E	NADH-plastoquinone oxidoreductase subunit 2	
 141606	142361	ndhB	+	A	E	NADH-plastoquinone oxidoreductase subunit 2	

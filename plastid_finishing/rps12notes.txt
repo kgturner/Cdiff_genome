@@ -1,0 +1,31 @@
+gene            complement(97345..97596)
+                     /gene="rps12"
+     CDS             complement(97345..97596)
+                     /gene="rps12"
+                     /note="trans_splicing"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12, 3"
+                     /translation="-
+                     ITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHI
+                     VRGTLDAVGVKDRQQGRSSAL*ILI"
+
+gene            138560..138874
+                     /gene="rps12"
+     CDS             138560..138874
+                     /gene="rps12"
+                     /note="trans_splicing"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12, 3"
+                     /translation="-
+                     ITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHI
+                     VRGTLDAVGVKDRQQGRSSAL*ILIQDLYHLMMPCESLETCEVYG"
+
+
+
+
+lac
+MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSSAL
+diff
+MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVY_ITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSSAL*ILIQDLYHLMMPCESLETCEVYG

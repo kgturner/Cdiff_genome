@@ -1,0 +1,805 @@
+WARN           SEQ_INST       CompleteCircleProblem                        2 1 48 1 3 4
+               Circular topology without complete flag set
+               BIOSEQ: lcl|Plastid: raw, dna len= 152559
+               (CONTEXT Plastid)
+
+               This sequence has a circular topology, but
+               it is not marked as complete.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 219 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:103686-106494] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 221 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:106594-106696] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 223 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:106942-107062] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 263 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene:  [lcl|Plastid:c129214-129094] (CONTEXT
+               Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 265 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:c129562-129460] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 267 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:c132469-129661] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 281 7
+               Colliding names in gene features FEATURE:
+               Gene:  [lcl|Plastid:c136396-134907] (CONTEXT
+               Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 291 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: ndhB [lcl|Plastid:140163-142361]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 273 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: orf42 [lcl|Plastid:133230-133367]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 271 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: orf56 [lcl|Plastid:132867-133034]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 301 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: rpl23 [lcl|Plastid:150654-150935]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 199 7
+               Colliding names in gene features FEATURE:
+               Gene: rps12 [lcl|Plastid:c97596-97345]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 287 7
+               Colliding names in gene features FEATURE:
+               Gene: rps12 [lcl|Plastid:138560-138874]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 289 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: rps7 [lcl|Plastid:139406-139873]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 213 7
+               Colliding names in gene features FEATURE:
+               Gene: trnA-UGC [lcl|Plastid:103499-103533]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 269 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnA-UGC [lcl|Plastid:c132657-132623]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 275 7
+               Colliding names in gene features FEATURE:
+               Gene: trnA-UGC [lcl|Plastid:c133534-133497]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 299 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnI-CAU [lcl|Plastid:150415-150488]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 209 7
+               Colliding names in gene features FEATURE:
+               Gene: trnI-GAU [lcl|Plastid:102523-102557]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 277 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnI-GAU [lcl|Plastid:c133633-133599]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 279 7
+               Colliding names in gene features FEATURE:
+               Gene: trnI-GAU [lcl|Plastid:c134613-134571]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 295 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnL-CAA [lcl|Plastid:142939-143019]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 84 7
+               Colliding names in gene features FEATURE:
+               Gene: trnL-UAA [lcl|Plastid:47047-47096]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 259 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnN-GUU [lcl|Plastid:128231-128303]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 261 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnR-ACG [lcl|Plastid:c128842-128769]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 283 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: trnV-GAC [lcl|Plastid:c136696-136625]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 96 7
+               Colliding names in gene features FEATURE:
+               Gene: trnV-UAC [lcl|Plastid:c51483-51446]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 257 7
+               Colliding names in gene features FEATURE:
+               Gene: ycf1 [lcl|Plastid:c128002-122726]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+INFO           SEQ_FEAT       ReplicatedGeneSequence                       1 5 172 1 285 7
+               Colliding names in gene features, but
+               underlying sequences are identical FEATURE:
+               Gene: ycf15 [lcl|Plastid:137387-137578]
+               (CONTEXT Plastid)
+
+               Two gene features with the same name are
+               annotated at different locations, but the
+               underlying sequence is identical.
+
+WARN           SEQ_FEAT       CollidingGeneNames                           2 5 57 1 297 7
+               Colliding names in gene features FEATURE:
+               Gene: ycf2 [lcl|Plastid:c150441-143428]
+               (CONTEXT Plastid)
+
+               Two gene features should not have the same
+               name.
+
+ERROR          SEQ_FEAT       NoStop                                       3 5 13 1 6 7
+               Missing stop codon FEATURE: CDS: maturase K
+               [lcl|Plastid:c3567-2050] -> [lcl|Plastid_2]
+               (CONTEXT Plastid)
+
+               A coding region that is complete should have
+               a stop codon at the 3'end.  A stop codon was
+               not found on this sequence, although one was
+               expected.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 10 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: ribosomal protein S16
+               [lcl|Plastid:c5429-5115] -> [lcl|Plastid_3]
+               (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 32 7
+               2 internal stops. Genetic code [11] FEATURE:
+               CDS: RNA polymerase beta [(lcl|Plastid:15813-
+               16259, 16961-18628)] -> [lcl|Plastid_9]
+               (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 44 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: ATP synthase CF0 subunit I
+               [(lcl|Plastid:26529-26687, 27320-27790)] ->
+               [lcl|Plastid_14] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+WARN           SEQ_FEAT       MissingTrnaAA                                2 5 106 1 64 7
+               Missing encoded amino acid qualifier in tRNA
+               FEATURE: tRNA: tRNA- [lcl|Plastid:c35948-
+               35875] (CONTEXT Plastid)
+
+               The tRNA encoded amino acid is not set.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 107 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: Acetyl-CoA carboxylase
+               carboxyltransferase beta subunit
+               [lcl|Plastid:56544-58058] ->
+               [lcl|Plastid_30] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       StartCodon                                   3 5 8 1 119 7
+               Illegal start codon used. Wrong genetic code
+               [11] or protein should be partial FEATURE:
+               CDS: photosystem II protein L
+               [lcl|Plastid:c63732-63619] ->
+               [lcl|Plastid_36] (CONTEXT Plastid)
+
+               An illegal start codon was used. Some
+               possible explanations are: (1) the wrong
+               genetic code may have been selected; (2) the
+               wrong reading frame may be in use; or (3)
+               the coding region may be incomplete at the
+               5' end, in which case a partial location
+               should be indicated.
+
+ERROR          SEQ_FEAT       NoStop                                       3 5 13 1 119 7
+               Missing stop codon FEATURE: CDS: photosystem
+               II protein L [lcl|Plastid:c63732-63619] ->
+               [lcl|Plastid_36] (CONTEXT Plastid)
+
+               A coding region that is complete should have
+               a stop codon at the 3'end.  A stop codon was
+               not found on this sequence, although one was
+               expected.
+
+ERROR          SEQ_FEAT       NoStop                                       3 5 13 1 143 7
+               Missing stop codon FEATURE: CDS: ribosomal
+               protein S12 [lcl|Plastid:c69278-69165] ->
+               [lcl|Plastid_45] (CONTEXT Plastid)
+
+               A coding region that is complete should have
+               a stop codon at the 3'end.  A stop codon was
+               not found on this sequence, although one was
+               expected.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 152 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: photosystem II protein T
+               [lcl|Plastid:73594-73737] ->
+               [lcl|Plastid_48] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 160 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: cytochrome b6/f complex subunit IV
+               [lcl|Plastid:76620-77165] ->
+               [lcl|Plastid_52] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 162 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: RNA polymerase alpha subunit
+               [lcl|Plastid:c78388-77357] ->
+               [lcl|Plastid_53] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 164 7
+               2 internal stops. Genetic code [11] FEATURE:
+               CDS: ribosomal protein S11
+               [lcl|Plastid:c78870-78445] ->
+               [lcl|Plastid_54] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       StartCodon                                   3 5 8 1 200 7
+               Illegal start codon (and 1 internal stops).
+               Probably wrong genetic code [11] FEATURE:
+               CDS: ribosomal protein S12, 3
+               [lcl|Plastid:c97596-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               An illegal start codon was used. Some
+               possible explanations are: (1) the wrong
+               genetic code may have been selected; (2) the
+               wrong reading frame may be in use; or (3)
+               the coding region may be incomplete at the
+               5' end, in which case a partial location
+               should be indicated.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 200 7
+               1 internal stops (and illegal start codon).
+               Genetic code [11] FEATURE: CDS: ribosomal
+               protein S12, 3 [lcl|Plastid:c97596-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       NoStop                                       3 5 13 1 200 7
+               Missing stop codon FEATURE: CDS: ribosomal
+               protein S12, 3 [lcl|Plastid:c97596-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               A coding region that is complete should have
+               a stop codon at the 3'end.  A stop codon was
+               not found on this sequence, although one was
+               expected.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 205 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:99759-
+               101248] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 219 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:103686-
+               106494] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 221 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:106594-
+               106696] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 223 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:106942-
+               107062] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+ERROR          SEQ_FEAT       PseudoCdsHasProtXref                         3 5 120 1 230 7
+               A pseudo coding region should not have a
+               protein xref FEATURE: CDS: hypothetical
+               chloroplast RF19 [lcl|Plastid:108253-108834]
+               (CONTEXT Plastid)
+
+               A coding region flagged as pseudo has a
+               protein cross reference.  There should be no
+               protein product bioseq or protein cross
+               reference on a pseudo CDS.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 258 7
+               2 internal stops. Genetic code [11] FEATURE:
+               CDS: hypothetical chloroplast RF19
+               [lcl|Plastid:c128002-122726] ->
+               [lcl|Plastid_83] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 263 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:c129214-
+               129094] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 265 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:c129562-
+               129460] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 267 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:c132469-
+               129661] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+WARN           SEQ_FEAT       GeneRefHasNoData                             2 5 18 1 281 7
+               There is a gene feature where all fields are
+               empty FEATURE: Gene:  [lcl|Plastid:c136396-
+               134907] (CONTEXT Plastid)
+
+               A gene feature exists with no locus name or
+               other fields filled in.
+
+ERROR          SEQ_FEAT       StartCodon                                   3 5 8 1 288 7
+               Illegal start codon (and 1 internal stops).
+               Probably wrong genetic code [11] FEATURE:
+               CDS: ribosomal protein S12, 3
+               [lcl|Plastid:138560-138874] ->
+               [lcl|Plastid_87] (CONTEXT Plastid)
+
+               An illegal start codon was used. Some
+               possible explanations are: (1) the wrong
+               genetic code may have been selected; (2) the
+               wrong reading frame may be in use; or (3)
+               the coding region may be incomplete at the
+               5' end, in which case a partial location
+               should be indicated.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 288 7
+               1 internal stops (and illegal start codon).
+               Genetic code [11] FEATURE: CDS: ribosomal
+               protein S12, 3 [lcl|Plastid:138560-138874] -
+               > [lcl|Plastid_87] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 292 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: NADH-plastoquinone oxidoreductase
+               subunit 2 [(lcl|Plastid:140163-140957,
+               141606-142361)] -> [lcl|Plastid_89] (CONTEXT
+               Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 298 7
+               7 internal stops. Genetic code [11] FEATURE:
+               CDS: hypothetical chloroplast RF21
+               [lcl|Plastid:c150441-143428] ->
+               [lcl|Plastid_90] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 4 2
+               [1] termination symbols in protein sequence
+               (rps16 - ribosomal protein S16) BIOSEQ:
+               lcl|Plastid_3: raw, aa len= 104 (CONTEXT
+               Plastid_3)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 10 2
+               [2] termination symbols in protein sequence
+               (rpoC1 - RNA polymerase beta) BIOSEQ:
+               lcl|Plastid_9: raw, aa len= 704 (CONTEXT
+               Plastid_9)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 15 2
+               [1] termination symbols in protein sequence
+               (atpF - ATP synthase CF0 subunit I) BIOSEQ:
+               lcl|Plastid_14: raw, aa len= 209 (CONTEXT
+               Plastid_14)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 31 2
+               [1] termination symbols in protein sequence
+               (accD - Acetyl-CoA carboxylase
+               carboxyltransferase beta subunit) BIOSEQ:
+               lcl|Plastid_30: raw, aa len= 504 (CONTEXT
+               Plastid_30)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       BadProteinStart                              3 1 51 1 37 2
+               gap symbol at start of protein sequence
+               (psbL - photosystem II protein L) BIOSEQ:
+               lcl|Plastid_36: raw, aa len= 38 (CONTEXT
+               Plastid_36)
+
+               A gap symbols was found at the start of this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 49 2
+               [1] termination symbols in protein sequence
+               (psbT - photosystem II protein T) BIOSEQ:
+               lcl|Plastid_48: raw, aa len= 47 (CONTEXT
+               Plastid_48)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 53 2
+               [1] termination symbols in protein sequence
+               (petD - cytochrome b6/f complex subunit IV)
+               BIOSEQ: lcl|Plastid_52: raw, aa len= 181
+               (CONTEXT Plastid_52)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 54 2
+               [1] termination symbols in protein sequence
+               (rpoA - RNA polymerase alpha subunit)
+               BIOSEQ: lcl|Plastid_53: raw, aa len= 343
+               (CONTEXT Plastid_53)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 55 2
+               [2] termination symbols in protein sequence
+               (rps11 - ribosomal protein S11) BIOSEQ:
+               lcl|Plastid_54: raw, aa len= 141 (CONTEXT
+               Plastid_54)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       BadProteinStart                              3 1 51 1 69 2
+               gap symbol at start of protein sequence
+               (rps12 - ribosomal protein S12, 3) BIOSEQ:
+               lcl|Plastid_68: raw, aa len= 84 (CONTEXT
+               Plastid_68)
+
+               A gap symbols was found at the start of this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 69 2
+               [1] termination symbols in protein sequence
+               (rps12 - ribosomal protein S12, 3) BIOSEQ:
+               lcl|Plastid_68: raw, aa len= 84 (CONTEXT
+               Plastid_68)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 84 2
+               [2] termination symbols in protein sequence
+               (ycf1 - hypothetical chloroplast RF19)
+               BIOSEQ: lcl|Plastid_83: raw, aa len= 1758
+               (CONTEXT Plastid_83)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       BadProteinStart                              3 1 51 1 88 2
+               gap symbol at start of protein sequence
+               (rps12 - ribosomal protein S12, 3) BIOSEQ:
+               lcl|Plastid_87: raw, aa len= 104 (CONTEXT
+               Plastid_87)
+
+               A gap symbols was found at the start of this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 88 2
+               [1] termination symbols in protein sequence
+               (rps12 - ribosomal protein S12, 3) BIOSEQ:
+               lcl|Plastid_87: raw, aa len= 104 (CONTEXT
+               Plastid_87)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 90 2
+               [1] termination symbols in protein sequence
+               (ndhB - NADH-plastoquinone oxidoreductase
+               subunit 2) BIOSEQ: lcl|Plastid_89: raw, aa
+               len= 516 (CONTEXT Plastid_89)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 91 2
+               [7] termination symbols in protein sequence
+               (ycf2 - hypothetical chloroplast RF21)
+               BIOSEQ: lcl|Plastid_90: raw, aa len= 2337
+               (CONTEXT Plastid_90)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+WARN           GENERIC        MissingPubInfo                               2 3 4 0 0 0
+               Submission citation affiliation has no
+               country (CONTEXT Plastid)
+
+               The publication is missing essential
+               information, such as title or authors.
+
+WARN           GENERIC        MissingPubInfo                               2 3 4 0 0 0
+               Submission citation affiliation has no
+               country (CONTEXT Plastid)
+
+               The publication is missing essential
+               information, such as title or authors.
+
+WARN           GENERIC        MissingPubInfo                               2 3 4 0 0 0
+               Submission citation affiliation has no
+               country (CONTEXT Plastid)
+
+               The publication is missing essential
+               information, such as title or authors.
