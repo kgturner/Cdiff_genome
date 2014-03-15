@@ -43,9 +43,9 @@ FEATURES             Location/Qualifiers
                      VTSSLIRETTENESANEGYRFGQEEETYNIVAAHGYFGRLIFQYASFNNSRSLHFFLA
                      AWPVVGIWFTALGISTMAFNLNGFNFNQSVVDSQGRVINTWADIINRANLGMEVMHER
                      NAHNFPLDLAAIEAPATNG"
-     gene            complement(2050..3567)
+     gene            complement(2047..3567)
                      /gene="matK"
-     CDS             complement(2050..3567)
+     CDS             complement(2047..3567)
                      /gene="matK"
                      /codon_start=1
                      /transl_table=11
@@ -65,16 +65,21 @@ FEATURES             Location/Qualifiers
                      /gene="trnK-UUU"
                      /product="tRNA-Lys"
                      /note="anticodon:UUU"
-     gene            complement(5115..5429)
+     gene            complement(5115..6277)
                      /gene="rps16"
-     CDS             complement(5115..5429)
+     CDS             complement(join(5115..5429, 6180..6227))
                      /gene="rps16"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S16"
-                     /translation="MIFSRAVRRENFLYGSGGGGVLFHLHLSR*AVYRIVAIDVRSRR
-                     EGRDLRKVGFYDPIKNQTYLNVPAILYFLEKGAQPTGTVQDILKKAEVFKELCPNQAK
-                     FN"
+                     /translation="MVKLRLKRCGRKQRATAVYRIVAIDVRSRREGRDLRKVGFYDPI
+					 KNQTYLNVPAILYFLEKGAQPTGTVQDILKKAEVFKELCPNQAKFN"
+	 exon            complement(5115..5429)
+                     /gene="rps16"
+                     /number=2
+     exon            complement(6180..6227)
+                     /gene="rps16"
+                     /number=1
      gene            complement(7165..7236)
                      /gene="trnQ-UUG"
      tRNA            complement(7165..7236)
