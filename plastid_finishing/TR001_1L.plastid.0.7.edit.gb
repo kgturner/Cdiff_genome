@@ -1137,10 +1137,8 @@ FEATURES             Location/Qualifiers
                      /gene="ycf1"
      CDS             108253..108834
                      /gene="ycf1"
+					 /note="hypothetical chloroplast RF1"
                      /pseudo
-                     /codon_start=1
-                     /transl_table=11
-                     /product="hypothetical chloroplast RF19"
      gene            complement(108837..111068)
                      /gene="ndhF"
      CDS             complement(108837..111068)

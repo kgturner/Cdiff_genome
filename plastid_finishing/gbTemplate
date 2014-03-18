@@ -1,0 +1,68 @@
+Submit-block ::= {
+  contact {
+    contact {
+      name
+        name {
+          last "Turner" ,
+          first "Kathryn" ,
+          initials "K.G." } ,
+      affil
+        std {
+          affil "University of British Columbia" ,
+          div "Botany" } } } ,
+  cit {
+    authors {
+      names
+        std {
+          {
+            name
+              name {
+                last "Turner" ,
+                first "Kathryn" ,
+                initials "K.G." } } ,
+          {
+            name
+              name {
+                last "Grassa" ,
+                first "Chris" ,
+                initials "C." } } } ,
+      affil
+        std {
+          affil "University of British Columbia" ,
+          div "Botany" } } ,
+    date
+      std {
+        year 2014 ,
+        month 3 ,
+        day 17 } } ,
+  hup TRUE ,
+  reldate
+    std {
+      year 2023 ,
+      month 3 ,
+      day 31 } ,
+  subtype new }
+Seqdesc ::= pub {
+  pub {
+    gen {
+      cit "unpublished" ,
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Turner" ,
+                  first "Kathryn" ,
+                  initials "K.G." } } ,
+            {
+              name
+                name {
+                  last "Grassa" ,
+                  first "Chris" ,
+                  initials "C." } } } ,
+        affil
+          std {
+            affil "University of British Columbia" ,
+            div "Botany" } } ,
+      title "Centaurea diffusa chloroplast genome" } } }

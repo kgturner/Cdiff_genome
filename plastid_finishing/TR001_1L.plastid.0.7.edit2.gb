@@ -67,17 +67,18 @@ FEATURES             Location/Qualifiers
                      /note="anticodon:UUU"
      gene            complement(5115..6227)
                      /gene="rps16"
-     CDS             complement(join(5115..5337,6186..6227))
+     CDS             complement(join(5115..5429,6180..6227))
                      /gene="rps16"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S16"
-                     /translation="MVKLRLKRCGRKQRRLSNRCN*CSIPKRRKRSSESGFL*SDQES
-                     NLFKRSRYSLFP*KRRSAYRNCSGYFKKGRGF*GTLP*SSEIQL"
-     exon            complement(5115..5337)
+                     /translation="MVKLRLKRCGRKQRATIIFSRAVRRENFLYGSGGGGVLFHLHLS
+                     R*AVYRIVAIDVRSRREGRDLRKVGFYDPIKNQTYLNVPAILYFLEKGAQPTGTVQDI
+                     LKKAEVFKELCPNQAKFN"
+     exon            complement(5115..5429)
                      /gene="rps16"
                      /number=2
-     exon            complement(6186..6227)
+     exon            complement(6180..6227)
                      /gene="rps16"
                      /number=1
      gene            complement(7165..7236)
@@ -732,22 +733,16 @@ FEATURES             Location/Qualifiers
                      /translation="MTRIRRGYIARRRRTKIRLFASSFRGAHSRLTRTITQQKIRALV
                      SAHRDRDRQKINFRRLWITRINAAIRERGVCYSYSRLINDLYKRQLLLNRKILAQIAI
                      SNRNCLYMISNEIIKEVGRKESTG"
-     gene            complement(69138..138803)
+     gene            complement(69138..69278)
                      /gene="rps12"
-     CDS             complement(join(69138..69278,97345..97584,138563..138803))
+     CDS             complement(69138..69278)
                      /gene="rps12"
                      /note="trans_splicing"
                      /codon_start=1
                      /transl_table=11
-                     /product="ribosomal protein S12, 3"
-                     /translation="-
-                     TTH*NALVDDPLLRQHLGFLEQCDISHRVNP*PSPLLLRLQNVLVNYGQYRVYKQ*FQ
-                     IQRLIVLWQLYVRQSLVFLG**KTKLCLT*SCQSTINLWI*NHCLYTRYWP*FTRTFC
-                     SLSKRGEG*GFTRCEISHCSRNPRCCRSKGSSTRAF*CVVDSYHANY*TTY*KYKTAN
-                     *KCHKIPRASGMPSASRNMY*GVCATRSDHEL"
-     exon            complement(69138..69278)
-                     /gene="rps12"
-                     /number=3
+                     /product="ribosomal protein S12"
+                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYVRLVQI
+                     MN"
      gene            complement(69434..71443)
                      /gene="clpP"
      CDS             complement(join(69434..69664,70278..70568,71375..71443))
@@ -833,20 +828,20 @@ FEATURES             Location/Qualifiers
                      AWPNDLLYIFPVVILGTIACNVGLAVLEPSMIGEPADPFATPLEILPEWYFFPVFQIL
                      RTVPNKLLGVLLMVSVPAGLLTVPFLENVNKFQNPFRRPVATTVFLIGTAVALWLGIG
                      ATLPIDKSLTLGLF"
-     gene            complement(77357..78364)
+     gene            complement(77357..78385)
                      /gene="rpoA"
-     CDS             complement(77357..78364)
+     CDS             complement(77357..78385)
                      /gene="rpoA"
                      /codon_start=1
                      /transl_table=11
                      /product="RNA polymerase alpha subunit"
-                     /translation="MVRETITVSTRTLQWQCVESAADSKRLFYGRFILAPLRKGQADT
-                     IGIAMRRALLGEIEGTCITRAKSEKISHEYSTIMGIQESVHEILMNLKEIVLRSNLYR
-                     NRTCEASICVRGPGYVTAQDIILPPYVEIVDNTQHIASLTEPVELVIGLQIEKNSGYF
-                     IKAPNTFQDGSYPIDPVFMPIQNVNHSIHSYENGNKEVLFLEIWTNGSLTPKEALREA
-                     SRNLIDLVIPFLHPKFNPKEEILNLEDNKGFAFSYKLAKLTKNKKKMALKSIFIDQSE
-                     LPPRIYNCLKRSNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFVIDLPKNK
-                     F"
+                     /translation="M*SNNIIMVRETITVSTRTLQWQCVESAADSKRLFYGRFILAPL
+                     RKGQADTIGIAMRRALLGEIEGTCITRAKSEKISHEYSTIMGIQESVHEILMNLKEIV
+                     LRSNLYRNRTCEASICVRGPGYVTAQDIILPPYVEIVDNTQHIASLTEPVELVIGLQI
+                     EKNSGYFIKAPNTFQDGSYPIDPVFMPIQNVNHSIHSYENGNKEVLFLEIWTNGSLTP
+                     KEALREASRNLIDLVIPFLHPKFNPKEEILNLEDNKGFAFSYKLAKLTKNKKKMALKS
+                     IFIDQSELPPRIYNCLKRSNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFV
+                     IDLPKNKF"
      gene            complement(78445..78855)
                      /gene="rps11"
      CDS             complement(78445..78855)
@@ -1054,9 +1049,17 @@ FEATURES             Location/Qualifiers
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVTRILKHGKKSLAYQIIY
                      RAVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSAQGKALAIR
                      WLLAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
-     exon            complement(97345..97584)
+     gene            complement(97345..97584)
                      /gene="rps12"
-                     /number=2
+     CDS             complement(97345..97584)
+                     /gene="rps12"
+                     /note="trans_splicing"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12, 3"
+                     /translation="-
+                     KPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGT
+                     LDAVGVKDRQQGRSSAL*ILI"
      gene            complement(98578..98769)
                      /gene="ycf15"
      CDS             complement(98578..98769)
@@ -1413,9 +1416,17 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical chloroplast RF15"
                      /translation="MRVPLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLGPQRQN
                      VGLAPTVHHGRKDSLSRDH"
-     exon            complement(138563..138803)
+     gene            138563..138874
                      /gene="rps12"
-                     /number=1
+     CDS             138563..138874
+                     /gene="rps12"
+                     /note="trans_splicing"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12, 3"
+                     /translation="MTPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVR
+                     GGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSSAL*ILIQDLYHLMMPCESLETCEVY
+                     G"
      gene            139406..139873
                      /gene="rps7"
      CDS             139406..139873
