@@ -1,0 +1,118 @@
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 109 7
+               1 internal stops. Genetic code [11] FEATURE:
+               CDS: Acetyl-CoA carboxylase
+               carboxyltransferase beta subunit
+               [lcl|Plastid:56529-58058] ->
+               [lcl|Plastid_30] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       StartCodon                                   3 5 8 1 121 7
+               Illegal start codon used. Wrong genetic code
+               [11] or protein should be partial FEATURE:
+               CDS: photosystem II protein L
+               [lcl|Plastid:c63732-63616] ->
+               [lcl|Plastid_36] (CONTEXT Plastid)
+
+               An illegal start codon was used. Some
+               possible explanations are: (1) the wrong
+               genetic code may have been selected; (2) the
+               wrong reading frame may be in use; or (3)
+               the coding region may be incomplete at the
+               5' end, in which case a partial location
+               should be indicated.
+
+ERROR          SEQ_FEAT       StartCodon                                   3 5 8 1 203 7
+               Illegal start codon (and 1 internal stops).
+               Probably wrong genetic code [11] FEATURE:
+               CDS: ribosomal protein S12, 3
+               [lcl|Plastid:c97584-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               An illegal start codon was used. Some
+               possible explanations are: (1) the wrong
+               genetic code may have been selected; (2) the
+               wrong reading frame may be in use; or (3)
+               the coding region may be incomplete at the
+               5' end, in which case a partial location
+               should be indicated.
+
+ERROR          SEQ_FEAT       InternalStop                                 3 5 9 1 203 7
+               1 internal stops (and illegal start codon).
+               Genetic code [11] FEATURE: CDS: ribosomal
+               protein S12, 3 [lcl|Plastid:c97584-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               Internal stop codons are found in the
+               protein sequence. Some possible explanations
+               are: (1) the wrong genetic code may have
+               been selected; (2) the wrong reading frame
+               may be in use; (3) the coding region may be
+               incomplete at the 5' end, in which case a
+               partial location should be indicated; or (4)
+               the CdRegion feature location is incorrect.
+
+ERROR          SEQ_FEAT       NoStop                                       3 5 13 1 203 7
+               Missing stop codon FEATURE: CDS: ribosomal
+               protein S12, 3 [lcl|Plastid:c97584-97345] ->
+               [lcl|Plastid_68] (CONTEXT Plastid)
+
+               A coding region that is complete should have
+               a stop codon at the 3'end.  A stop codon was
+               not found on this sequence, although one was
+               expected.
+
+ERROR          SEQ_FEAT       PseudoCdsHasProtXref                         3 5 120 1 233 7
+               A pseudo coding region should not have a
+               protein xref FEATURE: CDS: hypothetical
+               chloroplast RF19 [lcl|Plastid:108253-108834]
+               (CONTEXT Plastid)
+
+               A coding region flagged as pseudo has a
+               protein cross reference.  There should be no
+               protein product bioseq or protein cross
+               reference on a pseudo CDS.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 31 2
+               [1] termination symbols in protein sequence
+               (accD - Acetyl-CoA carboxylase
+               carboxyltransferase beta subunit) BIOSEQ:
+               lcl|Plastid_30: raw, aa len= 509 (CONTEXT
+               Plastid_30)
+
+               Stop codon symbols were found in this
+               protein Bioseq.
+
+ERROR          SEQ_INST       BadProteinStart                              3 1 51 1 37 2
+               gap symbol at start of protein sequence
+               (psbL - photosystem II protein L) BIOSEQ:
+               lcl|Plastid_36: raw, aa len= 38 (CONTEXT
+               Plastid_36)
+
+               A gap symbols was found at the start of this
+               protein Bioseq.
+
+ERROR          SEQ_INST       BadProteinStart                              3 1 51 1 69 2
+               gap symbol at start of protein sequence
+               (rps12_3end - ribosomal protein S12, 3)
+               BIOSEQ: lcl|Plastid_68: raw, aa len= 80
+               (CONTEXT Plastid_68)
+
+               A gap symbols was found at the start of this
+               protein Bioseq.
+
+ERROR          SEQ_INST       StopInProtein                                3 1 16 1 69 2
+               [1] termination symbols in protein sequence
+               (rps12_3end - ribosomal protein S12, 3)
+               BIOSEQ: lcl|Plastid_68: raw, aa len= 80
+               (CONTEXT Plastid_68)
+
+               Stop codon symbols were found in this
+               protein Bioseq.

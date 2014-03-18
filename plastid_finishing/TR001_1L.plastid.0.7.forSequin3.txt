@@ -19,13 +19,13 @@
 			product	tRNA-Lys
 6227	5115	gene
 			gene	rps16
-6227	6180	CDS
-5429	5115
+6227	6185	CDS
+5299	5115
 			product	ribosomal protein S16
 			note	
-6227	6180	exon
+6227	6185	exon
 			number 1
-5429	5115	exon
+5299	5115	exon
 			number 2
 7236	7165	gene
 			gene	trnQ-UUG
