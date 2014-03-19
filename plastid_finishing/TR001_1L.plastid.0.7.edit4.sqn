@@ -35,7 +35,7 @@ Seq-submit ::= {
         std {
           year 2014 ,
           month 3 ,
-          day 17 } } ,
+          day 18 } } ,
     hup TRUE ,
     reldate
       std {
@@ -86,7 +86,8 @@ Seq-submit ::= {
                 str "Plastid" } ,
             descr {
               molinfo {
-                biomol genomic } ,
+                biomol genomic ,
+                completeness complete } ,
               user {
                 type
                   str "StructuredComment" ,
@@ -134,7 +135,7 @@ Seq-submit ::= {
                     label
                       str "day" ,
                     data
-                      int 17 } ,
+                      int 18 } ,
                   {
                     label
                       str "year" ,
@@ -144,7 +145,7 @@ Seq-submit ::= {
                 std {
                   year 2014 ,
                   month 3 ,
-                  day 17 } } ,
+                  day 18 } } ,
             inst {
               repr raw ,
               mol dna ,
@@ -3308,9 +3309,9 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                           locus "rps12" } ,
                       location
                         int {
-                          from 69137 ,
-                          to 69277 ,
-                          strand minus ,
+                          from 69164 ,
+                          to 138801 ,
+                          strand plus ,
                           id
                             local
                               str "Plastid" } } ,
@@ -3320,31 +3321,129 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                           frame one ,
                           code {
                             id 11 } } ,
-                      comment "trans_splicing" ,
                       product
                         whole
                           local
                             str "Plastid_45" ,
                       location
+                        mix {
+                          int {
+                            from 69164 ,
+                            to 69277 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Plastid" } ,
+                          int {
+                            from 138559 ,
+                            to 138801 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Plastid" } } } ,
+                    {
+                      data
+                        imp {
+                          key "exon" } ,
+                      location
                         int {
-                          from 69137 ,
+                          from 69164 ,
                           to 69277 ,
-                          strand minus ,
+                          strand plus ,
+                          id
+                            local
+                              str "Plastid" } ,
+                      qual {
+                        {
+                          qual "number" ,
+                          val "1" } } } ,
+                    {
+                      data
+                        imp {
+                          key "exon" } ,
+                      location
+                        int {
+                          from 138559 ,
+                          to 138801 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Plastid" } ,
+                      qual {
+                        {
+                          qual "number" ,
+                          val "2" } } } ,
+                    {
+                      data
+                        gene {
+                          locus "rps12" ,
+                          desc "trans_splicing" } ,
+                      location
+                        int {
+                          from 69164 ,
+                          to 97595 ,
+                          strand plus ,
                           id
                             local
                               str "Plastid" } } ,
                     {
                       data
-                        gene {
-                          locus "rps12" } ,
+                        cdregion {
+                          frame one ,
+                          code {
+                            id 11 } } ,
+                      product
+                        whole
+                          local
+                            str "Plastid_46" ,
+                      location
+                        mix {
+                          int {
+                            from 69164 ,
+                            to 69277 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Plastid" } ,
+                          int {
+                            from 97356 ,
+                            to 97595 ,
+                            strand plus ,
+                            id
+                              local
+                                str "Plastid" } } } ,
+                    {
+                      data
+                        imp {
+                          key "exon" } ,
                       location
                         int {
-                          from 43701 ,
-                          to 97344 ,
+                          from 69164 ,
+                          to 69277 ,
                           strand plus ,
                           id
                             local
-                              str "Plastid" } } ,
+                              str "Plastid" } ,
+                      qual {
+                        {
+                          qual "number" ,
+                          val "1" } } } ,
+                    {
+                      data
+                        imp {
+                          key "exon" } ,
+                      location
+                        int {
+                          from 97356 ,
+                          to 97595 ,
+                          strand plus ,
+                          id
+                            local
+                              str "Plastid" } ,
+                      qual {
+                        {
+                          qual "number" ,
+                          val "2" } } } ,
                     {
                       data
                         gene {
@@ -3366,7 +3465,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_46" ,
+                            str "Plastid_47" ,
                       location
                         mix {
                           int {
@@ -3459,7 +3558,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_47" ,
+                            str "Plastid_48" ,
                       location
                         int {
                           from 71892 ,
@@ -3489,7 +3588,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_48" ,
+                            str "Plastid_49" ,
                       location
                         int {
                           from 73593 ,
@@ -3519,7 +3618,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_49" ,
+                            str "Plastid_50" ,
                       location
                         int {
                           from 73777 ,
@@ -3549,7 +3648,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_50" ,
+                            str "Plastid_51" ,
                       location
                         int {
                           from 74011 ,
@@ -3579,7 +3678,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_51" ,
+                            str "Plastid_52" ,
                       location
                         int {
                           from 75095 ,
@@ -3609,7 +3708,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_52" ,
+                            str "Plastid_53" ,
                       location
                         int {
                           from 76619 ,
@@ -3639,7 +3738,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_53" ,
+                            str "Plastid_54" ,
                       location
                         int {
                           from 77356 ,
@@ -3669,7 +3768,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_54" ,
+                            str "Plastid_55" ,
                       location
                         int {
                           from 78444 ,
@@ -3699,7 +3798,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_55" ,
+                            str "Plastid_56" ,
                       location
                         int {
                           from 78960 ,
@@ -3729,7 +3828,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_56" ,
+                            str "Plastid_57" ,
                       location
                         int {
                           from 79189 ,
@@ -3759,7 +3858,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_57" ,
+                            str "Plastid_58" ,
                       location
                         int {
                           from 79544 ,
@@ -3789,7 +3888,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_58" ,
+                            str "Plastid_59" ,
                       location
                         int {
                           from 80128 ,
@@ -3819,7 +3918,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_59" ,
+                            str "Plastid_60" ,
                       location
                         int {
                           from 80613 ,
@@ -3849,7 +3948,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_60" ,
+                            str "Plastid_61" ,
                       location
                         int {
                           from 82187 ,
@@ -3879,7 +3978,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_61" ,
+                            str "Plastid_62" ,
                       location
                         int {
                           from 82837 ,
@@ -3909,7 +4008,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_62" ,
+                            str "Plastid_63" ,
                       location
                         int {
                           from 83377 ,
@@ -3939,7 +4038,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_63" ,
+                            str "Plastid_64" ,
                       location
                         mix {
                           int {
@@ -4009,7 +4108,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_64" ,
+                            str "Plastid_65" ,
                       location
                         int {
                           from 85220 ,
@@ -4068,7 +4167,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_65" ,
+                            str "Plastid_66" ,
                       location
                         int {
                           from 85852 ,
@@ -4127,7 +4226,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_66" ,
+                            str "Plastid_67" ,
                       location
                         mix {
                           int {
@@ -4197,7 +4296,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_67" ,
+                            str "Plastid_68" ,
                       location
                         int {
                           from 96282 ,
@@ -4212,8 +4311,8 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                           locus "rps12_3end" } ,
                       location
                         int {
-                          from 97344 ,
-                          to 97583 ,
+                          from 97356 ,
+                          to 97595 ,
                           strand minus ,
                           id
                             local
@@ -4227,11 +4326,11 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_68" ,
+                            str "Plastid_69" ,
                       location
                         int {
-                          from 97344 ,
-                          to 97583 ,
+                          from 97356 ,
+                          to 97595 ,
                           strand minus ,
                           id
                             local
@@ -4257,7 +4356,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_69" ,
+                            str "Plastid_70" ,
                       location
                         int {
                           from 98577 ,
@@ -4458,7 +4557,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_70" ,
+                            str "Plastid_71" ,
                       location
                         int {
                           from 103121 ,
@@ -4488,7 +4587,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_71" ,
+                            str "Plastid_72" ,
                       location
                         int {
                           from 102788 ,
@@ -4687,7 +4786,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_72" ,
+                            str "Plastid_73" ,
                       location
                         int {
                           from 108836 ,
@@ -4717,7 +4816,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_73" ,
+                            str "Plastid_74" ,
                       location
                         int {
                           from 112100 ,
@@ -4776,7 +4875,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_74" ,
+                            str "Plastid_75" ,
                       location
                         int {
                           from 113304 ,
@@ -4806,7 +4905,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_75" ,
+                            str "Plastid_76" ,
                       location
                         int {
                           from 114513 ,
@@ -4836,7 +4935,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_76" ,
+                            str "Plastid_77" ,
                       location
                         int {
                           from 116134 ,
@@ -4866,7 +4965,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_77" ,
+                            str "Plastid_78" ,
                       location
                         int {
                           from 116616 ,
@@ -4896,7 +4995,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_78" ,
+                            str "Plastid_79" ,
                       location
                         int {
                           from 117139 ,
@@ -4926,7 +5025,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_79" ,
+                            str "Plastid_80" ,
                       location
                         int {
                           from 118027 ,
@@ -4956,7 +5055,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_80" ,
+                            str "Plastid_81" ,
                       location
                         mix {
                           int {
@@ -5026,7 +5125,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_81" ,
+                            str "Plastid_82" ,
                       location
                         int {
                           from 120759 ,
@@ -5056,7 +5155,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_82" ,
+                            str "Plastid_83" ,
                       location
                         int {
                           from 122032 ,
@@ -5086,7 +5185,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_83" ,
+                            str "Plastid_84" ,
                       location
                         int {
                           from 122725 ,
@@ -5281,7 +5380,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_84" ,
+                            str "Plastid_85" ,
                       location
                         int {
                           from 132866 ,
@@ -5311,7 +5410,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_85" ,
+                            str "Plastid_86" ,
                       location
                         int {
                           from 133229 ,
@@ -5483,7 +5582,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_86" ,
+                            str "Plastid_87" ,
                       location
                         int {
                           from 137386 ,
@@ -5513,7 +5612,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_87" ,
+                            str "Plastid_88" ,
                       location
                         int {
                           from 139405 ,
@@ -5543,7 +5642,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_88" ,
+                            str "Plastid_89" ,
                       location
                         mix {
                           int {
@@ -5642,7 +5741,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_89" ,
+                            str "Plastid_90" ,
                       location
                         int {
                           from 143427 ,
@@ -5701,7 +5800,7 @@ AAF35E47E80082C800A0C0CCB8C3F8F7DB65B2C0CA2200C83F7F7DB7F10000328A09EE11BD1C00
                       product
                         whole
                           local
-                            str "Plastid_90" ,
+                            str "Plastid_91" ,
                       location
                         int {
                           from 150653 ,
@@ -7184,9 +7283,10 @@ KINFRRLWITRINAAIRERGVCYSYSRLINDLYKRQLLLNRKILAQIAISNRNCLYMISNEIIKEVGRKESTG" } ,
             inst {
               repr raw ,
               mol aa ,
-              length 46 ,
+              length 118 ,
               seq-data
-                ncbieaa "MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYVRLVQIMN" } ,
+                ncbieaa "MHPSTCSSTLRASPKRGGFCDISNWLSCISNKLFNSWHTITPKKPNSALRKVA
+RVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTLDAVGVKDRQQGRSSAL" } ,
             annot {
               {
                 data
@@ -7195,11 +7295,11 @@ KINFRRLWITRINAAIRERGVCYSYSRLINDLYKRQLLLNRKILAQIAISNRNCLYMISNEIIKEVGRKESTG" } ,
                       data
                         prot {
                           name {
-                            "ribosomal protein S12, 3" } } ,
+                            "ribosomal protein S12" } } ,
                       location
                         int {
                           from 0 ,
-                          to 45 ,
+                          to 117 ,
                           id
                             local
                               str "Plastid_45" } } } } } } ,
@@ -7207,6 +7307,37 @@ KINFRRLWITRINAAIRERGVCYSYSRLINDLYKRQLLLNRKILAQIAISNRNCLYMISNEIIKEVGRKESTG" } ,
             id {
               local
                 str "Plastid_46" } ,
+            descr {
+              molinfo {
+                biomol peptide ,
+                tech concept-trans } } ,
+            inst {
+              repr raw ,
+              mol aa ,
+              length 118 ,
+              seq-data
+                ncbieaa "MHPSTCSSTLRASPKRGGFCDISNWLSCISNKLFNSWHQRTRTPLLTILYSDS
+I*GSSNNVISHTG*ILNPPPSY*DYRMFL*IMANTGYISSDFKSRG*SYSGNFT*GRVWFFWGDS" } ,
+            annot {
+              {
+                data
+                  ftable {
+                    {
+                      data
+                        prot {
+                          name {
+                            "ribosomal protein S12" } } ,
+                      location
+                        int {
+                          from 0 ,
+                          to 117 ,
+                          id
+                            local
+                              str "Plastid_46" } } } } } } ,
+          seq {
+            id {
+              local
+                str "Plastid_47" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7234,11 +7365,11 @@ FSEVATGEFILEVGELLKLRETLTRVYVQRTGKPFWVVSEDMERDVFMSATEAQAYGIVDLVAVE" } ,
                           to 195 ,
                           id
                             local
-                              str "Plastid_46" } } } } } } ,
+                              str "Plastid_47" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_47" } ,
+                str "Plastid_48" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7270,11 +7401,11 @@ RSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQGV" } ,
                           to 507 ,
                           id
                             local
-                              str "Plastid_47" } } } } } } ,
+                              str "Plastid_48" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_48" } ,
+                str "Plastid_49" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7300,11 +7431,11 @@ RSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQGV" } ,
                           to 35 ,
                           id
                             local
-                              str "Plastid_48" } } } } } } ,
+                              str "Plastid_49" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_49" } ,
+                str "Plastid_50" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7330,11 +7461,11 @@ RSSPRGWFTFGHASFALLFFFGHIWHGARTLFRDVFAGIDPDLDAQVEFGAFQKLGDPTTRRQGV" } ,
                           to 42 ,
                           id
                             local
-                              str "Plastid_49" } } } } } } ,
+                              str "Plastid_50" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_50" } ,
+                str "Plastid_51" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7361,11 +7492,11 @@ LSIILEIYNSSVLLDGISMN" } ,
                           to 72 ,
                           id
                             local
-                              str "Plastid_50" } } } } } } ,
+                              str "Plastid_51" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_51" } ,
+                str "Plastid_52" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7394,11 +7525,11 @@ MLMHFPMIRKQGISGPL" } ,
                           to 225 ,
                           id
                             local
-                              str "Plastid_51" } } } } } } ,
+                              str "Plastid_52" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_52" } ,
+                str "Plastid_53" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7426,11 +7557,11 @@ NKFQNPFRRPVATTVFLIGTAVALWLGIGATLPIDKSLTLGLF" } ,
                           to 173 ,
                           id
                             local
-                              str "Plastid_52" } } } } } } ,
+                              str "Plastid_53" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_53" } ,
+                str "Plastid_54" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7460,11 +7591,11 @@ SNIYTLLDLLNNSQEDLMKMEHFRIEDVKQILGILEKNFVIDLPKNKF" } ,
                           to 334 ,
                           id
                             local
-                              str "Plastid_53" } } } } } } ,
+                              str "Plastid_54" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_54" } ,
+                str "Plastid_55" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7492,11 +7623,11 @@ KKRRV" } ,
                           to 135 ,
                           id
                             local
-                              str "Plastid_54" } } } } } } ,
+                              str "Plastid_55" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_55" } ,
+                str "Plastid_56" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7522,11 +7653,11 @@ KKRRV" } ,
                           to 36 ,
                           id
                             local
-                              str "Plastid_55" } } } } } } ,
+                              str "Plastid_56" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_56" } ,
+                str "Plastid_57" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7553,11 +7684,11 @@ IEVSRYDSTRGRIIYRLRNKDSKD" } ,
                           to 76 ,
                           id
                             local
-                              str "Plastid_56" } } } } } } ,
+                              str "Plastid_57" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_57" } ,
+                str "Plastid_58" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7585,11 +7716,11 @@ YIW" } ,
                           to 133 ,
                           id
                             local
-                              str "Plastid_57" } } } } } } ,
+                              str "Plastid_58" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_58" } ,
+                str "Plastid_59" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7616,11 +7747,11 @@ RSEVVRAVIVRTCKELKRDNGMIIRYDDNAAVVIDQEGNPKGTRVFGAIARELRQFNFTKIVSLAPEVL" } ,
                           to 121 ,
                           id
                             local
-                              str "Plastid_58" } } } } } } ,
+                              str "Plastid_59" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_59" } ,
+                str "Plastid_60" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7648,11 +7779,11 @@ FIISG" } ,
                           to 135 ,
                           id
                             local
-                              str "Plastid_59" } } } } } } ,
+                              str "Plastid_60" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_60" } ,
+                str "Plastid_61" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7681,11 +7812,11 @@ LGIKIWIFIDGE" } ,
                           to 220 ,
                           id
                             local
-                              str "Plastid_60" } } } } } } ,
+                              str "Plastid_61" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_61" } ,
+                str "Plastid_62" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7713,11 +7844,11 @@ KPKSKKKHTTMSYYDMYSNGGTWDKK" } ,
                           to 156 ,
                           id
                             local
-                              str "Plastid_61" } } } } } } ,
+                              str "Plastid_62" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_62" } ,
+                str "Plastid_63" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7744,11 +7875,11 @@ GKEHLPIYITDRMVGHKLGEFGPTLNFRGHAKSDNRSRR" } ,
                           to 91 ,
                           id
                             local
-                              str "Plastid_62" } } } } } } ,
+                              str "Plastid_63" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_63" } ,
+                str "Plastid_64" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7777,11 +7908,11 @@ KRWLGKRPVVRGVVMNPVDHPHGGGEGRAPIGRKKPTTPWGYPALGKRSRKRNKYSDNLILRRRSK" } ,
                           to 274 ,
                           id
                             local
-                              str "Plastid_63" } } } } } } ,
+                              str "Plastid_64" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_64" } ,
+                str "Plastid_65" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7808,11 +7939,11 @@ RLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT" } ,
                           to 92 ,
                           id
                             local
-                              str "Plastid_64" } } } } } } ,
+                              str "Plastid_65" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_65" } ,
+                str "Plastid_66" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7867,11 +7998,11 @@ YQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDFPFLSRKDMWP" } ,
                           to 2290 ,
                           id
                             local
-                              str "Plastid_65" } } } } } } ,
+                              str "Plastid_66" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_66" } ,
+                str "Plastid_67" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7903,11 +8034,11 @@ IYYYLKIIKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF" } ,
                           to 509 ,
                           id
                             local
-                              str "Plastid_66" } } } } } } ,
+                              str "Plastid_67" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_67" } ,
+                str "Plastid_68" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7935,11 +8066,11 @@ GDAIRKREETHRMAEANRAFAHFR" } ,
                           to 154 ,
                           id
                             local
-                              str "Plastid_67" } } } } } } ,
+                              str "Plastid_68" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_68" } ,
+                str "Plastid_69" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7949,8 +8080,8 @@ GDAIRKREETHRMAEANRAFAHFR" } ,
               mol aa ,
               length 80 ,
               seq-data
-                ncbieaa "-KPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRY
-HIVRGTLDAVGVKDRQQGRSSAL*ILI" } ,
+                ncbieaa "-ITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLP
+GVRYHIVRGTLDAVGVKDRQQGRSSAL" } ,
             annot {
               {
                 data
@@ -7966,11 +8097,11 @@ HIVRGTLDAVGVKDRQQGRSSAL*ILI" } ,
                           to 79 ,
                           id
                             local
-                              str "Plastid_68" } } } } } } ,
+                              str "Plastid_69" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_69" } ,
+                str "Plastid_70" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -7997,11 +8128,11 @@ GRKDSLSRDH" } ,
                           to 62 ,
                           id
                             local
-                              str "Plastid_69" } } } } } } ,
+                              str "Plastid_70" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_70" } ,
+                str "Plastid_71" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8028,11 +8159,11 @@ TY" } ,
                           to 54 ,
                           id
                             local
-                              str "Plastid_70" } } } } } } ,
+                              str "Plastid_71" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_71" } ,
+                str "Plastid_72" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8058,11 +8189,11 @@ TY" } ,
                           to 44 ,
                           id
                             local
-                              str "Plastid_71" } } } } } } ,
+                              str "Plastid_72" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_72" } ,
+                str "Plastid_73" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8097,11 +8228,11 @@ GMRKLAKLAHFFDRRIIDGIPNGAGLMSFFVAEVIKSVGGGRISSYLFFYFSYVSICLLSYYFFNL" } ,
                           to 742 ,
                           id
                             local
-                              str "Plastid_72" } } } } } } ,
+                              str "Plastid_73" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_73" } ,
+                str "Plastid_74" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8128,11 +8259,11 @@ S" } ,
                           to 53 ,
                           id
                             local
-                              str "Plastid_73" } } } } } } ,
+                              str "Plastid_74" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_74" } ,
+                str "Plastid_75" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8162,11 +8293,11 @@ ATLGFLIIWICYFGINLLGIGLHSYGSFTLTSS" } ,
                           to 319 ,
                           id
                             local
-                              str "Plastid_74" } } } } } } ,
+                              str "Plastid_75" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_75" } ,
+                str "Plastid_76" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8198,11 +8329,11 @@ RQMFYGYKLFNTPNSSVFDSGPRELFVSISIFLPVIGIGMYPDFVLSLSVDKVEGILSNYFYR" } ,
                           to 505 ,
                           id
                             local
-                              str "Plastid_75" } } } } } } ,
+                              str "Plastid_76" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_76" } ,
+                str "Plastid_77" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8229,11 +8360,11 @@ CESACPTDFLSVRVYLWHETTRSMGIAY" } ,
                           to 80 ,
                           id
                             local
-                              str "Plastid_76" } } } } } } ,
+                              str "Plastid_77" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_77" } ,
+                str "Plastid_78" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8260,11 +8391,11 @@ SRQLKGAIFSIFVIAIAAAEAAIGLAIVSSIYRNRKSTRINQSNLLNK" } ,
                           to 100 ,
                           id
                             local
-                              str "Plastid_77" } } } } } } ,
+                              str "Plastid_78" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_78" } ,
+                str "Plastid_79" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8292,11 +8423,11 @@ IVEQDLISNSQQIGIHLSTDFFLPFEFISIILLVALIGAIAVARQ" } ,
                           to 175 ,
                           id
                             local
-                              str "Plastid_78" } } } } } } ,
+                              str "Plastid_79" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_79" } ,
+                str "Plastid_80" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8324,11 +8455,11 @@ RHELNYNQIALGRLPMSVIDDYTIRTIFNLPEIKT" } ,
                           to 165 ,
                           id
                             local
-                              str "Plastid_79" } } } } } } ,
+                              str "Plastid_80" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_80" } ,
+                str "Plastid_81" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8358,11 +8489,11 @@ VPELFEITKRGRVFGTIIGIFITLAKTYLFLFIPIATRWTLPRLRMDQLLNLGWKFLLPISLGNLLLTTSFQLISL" } 
                           to 362 ,
                           id
                             local
-                              str "Plastid_80" } } } } } } ,
+                              str "Plastid_81" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_81" } ,
+                str "Plastid_82" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8393,11 +8524,11 @@ PQLVKRMKLADIMTILGSIDIIMGEVDR" } ,
                           to 392 ,
                           id
                             local
-                              str "Plastid_81" } } } } } } ,
+                              str "Plastid_82" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_82" } ,
+                str "Plastid_83" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8424,11 +8555,11 @@ GLRKILGKRQRLLAYLSKKNRARYKELIGQLDIRERKTR" } ,
                           to 91 ,
                           id
                             local
-                              str "Plastid_82" } } } } } } ,
+                              str "Plastid_83" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_83" } ,
+                str "Plastid_84" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8476,11 +8607,11 @@ WPNYRLEDLACMNRYWFDTNNGSRLSMLRIYMYP" } ,
                           to 1724 ,
                           id
                             local
-                              str "Plastid_83" } } } } } } ,
+                              str "Plastid_84" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_84" } ,
+                str "Plastid_85" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8507,11 +8638,11 @@ TY" } ,
                           to 54 ,
                           id
                             local
-                              str "Plastid_84" } } } } } } ,
+                              str "Plastid_85" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_85" } ,
+                str "Plastid_86" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8537,11 +8668,11 @@ TY" } ,
                           to 44 ,
                           id
                             local
-                              str "Plastid_85" } } } } } } ,
+                              str "Plastid_86" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_86" } ,
+                str "Plastid_87" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8568,11 +8699,11 @@ GRKDSLSRDH" } ,
                           to 62 ,
                           id
                             local
-                              str "Plastid_86" } } } } } } ,
+                              str "Plastid_87" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_87" } ,
+                str "Plastid_88" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8600,11 +8731,11 @@ GDAIRKREETHRMAEANRAFAHFR" } ,
                           to 154 ,
                           id
                             local
-                              str "Plastid_87" } } } } } } ,
+                              str "Plastid_88" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_88" } ,
+                str "Plastid_89" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8636,11 +8767,11 @@ IYYYLKIIKLLMTGRNQEITPHVRNYRRSPLRSNNSIELSMIVCVIASTIPGISMNPIIAIAQDTLF" } ,
                           to 509 ,
                           id
                             local
-                              str "Plastid_88" } } } } } } ,
+                              str "Plastid_89" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_89" } ,
+                str "Plastid_90" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8695,11 +8826,11 @@ YQYLSNLFLSNGTLLDQMTKALLRKRWLFPDEMQIGFMEQEKDFPFLSRKDMWP" } ,
                           to 2290 ,
                           id
                             local
-                              str "Plastid_89" } } } } } } ,
+                              str "Plastid_90" } } } } } } ,
           seq {
             id {
               local
-                str "Plastid_90" } ,
+                str "Plastid_91" } ,
             descr {
               molinfo {
                 biomol peptide ,
@@ -8726,4 +8857,4 @@ RLRGKARRMGPIMGQTMHYRRMIITLQPGYSIPPLRKKRT" } ,
                           to 92 ,
                           id
                             local
-                              str "Plastid_90" } } } } } } } } } }
+                              str "Plastid_91" } } } } } } } } } }

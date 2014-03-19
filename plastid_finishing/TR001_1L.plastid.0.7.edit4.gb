@@ -1,4 +1,4 @@
-LOCUS       Plastid               152559 bp    DNA     circular     17-MAR-2014
+LOCUS       Plastid               152559 bp    DNA     circular     18-MAR-2014
 DEFINITION  Centaurea diffusa.
 ACCESSION
 VERSION
@@ -13,7 +13,7 @@ REFERENCE   1  (bases 1 to 152559)
 REFERENCE   2  (bases 1 to 152559)
   AUTHORS   Turner,K.G. and Grassa,C.
   TITLE     Direct Submission
-  JOURNAL   Submitted (17-MAR-2014) Botany, University of British Columbia
+  JOURNAL   Submitted (18-MAR-2014) Botany, University of British Columbia
 COMMENT     ##Assembly-Data-START##
             Assembly Method       :: Ray v. 0.0
             Sequencing Technology :: Illumina
@@ -431,8 +431,6 @@ FEATURES             Location/Qualifiers
      exon            complement(43577..43702)
                      /gene="ycf3"
                      /number=1
-     gene            43702..97345
-                     /gene="rps12"
      gene            44601..44687
                      /gene="trnS-GGA"
      tRNA            44601..44687
@@ -734,16 +732,33 @@ FEATURES             Location/Qualifiers
                      /translation="MTRIRRGYIARRRRTKIRLFASSFRGAHSRLTRTITQQKIRALV
                      SAHRDRDRQKINFRRLWITRINAAIRERGVCYSYSRLINDLYKRQLLLNRKILAQIAI
                      SNRNCLYMISNEIIKEVGRKESTG"
-     gene            complement(69138..69278)
+     gene            69165..138802
                      /gene="rps12"
-     CDS             complement(69138..69278)
+					 /trans_splicing
+     CDS             join(69165..69278,138560..138802)
                      /gene="rps12"
-                     /note="trans_splicing"
+					 /trans_splicing
                      /codon_start=1
                      /transl_table=11
-                     /product="ribosomal protein S12, 3"
-                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYVRLVQI
-                     MN"
+                     /product="ribosomal protein S12"
+                     /translation="MHPSTCSSTLRASPKRGGFCDISNWLSCISNKLFNSWHTITPKK
+                     PNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTL
+                     DAVGVKDRQQGRSSAL"
+     gene            69165..97596
+                     /gene="rps12"
+					 /trans_splicing
+     CDS             complement(join(69165..69278,97357..97596))
+                     /gene="rps12"
+					 /trans_splicing
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ribosomal protein S12"
+                     /translation="MPTIKQLIRNTRQPIRNVTKSPALRGCPQRRGTCTRVYTITPKK
+					 PNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGTL
+					 DAVGVKDRQQGRSSAL"
+     exon            69165..69278
+                     /gene="rps12"
+                     /number=1
      gene            complement(69434..71443)
                      /gene="clpP"
      CDS             complement(join(69434..69664,70278..70568,71375..71443))
@@ -1050,16 +1065,19 @@ FEATURES             Location/Qualifiers
                      /translation="MSRRGTAEEKTAKSDPIYRNRLVNMLVTRILKHGKKSLAYQIIY
                      RAVKKIQQKTETNPLSVLRQAIHGVTPGIAVKARRVGGSTHQVPIEIGSAQGKALAIR
                      WLLAASRKRPGRNMAFKLSSELVDAAKGSGDAIRKREETHRMAEANRAFAHFR"
-     gene            complement(97345..97584)
+     gene            complement(97357..97596)
                      /gene="rps12_3end"
-     CDS             complement(97345..97584)
+     CDS             complement(97357..97596)
                      /gene="rps12_3end"
                      /codon_start=1
                      /transl_table=11
                      /product="ribosomal protein S12, 3"
                      /translation="-
-                     KPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHIVRGT
-                     LDAVGVKDRQQGRSSAL*ILI"
+                     ITPKKPNSALRKVARVRLTSGFEITAYIPGIGHNSQEHSVVLVRGGRVKDLPGVRYHI
+                     VRGTLDAVGVKDRQQGRSSAL"
+     exon            97357..97596
+                     /gene="rps12"
+                     /number=2
      gene            complement(98578..98769)
                      /gene="ycf15"
      CDS             complement(98578..98769)
@@ -1416,6 +1434,9 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical chloroplast RF15"
                      /translation="MRVPLHCIARIHVVYLKEVDLLASLTVQSSSRRAPFLLGPQRQN
                      VGLAPTVHHGRKDSLSRDH"
+     exon            138560..138802
+                     /gene="rps12"
+                     /number=2
      gene            139406..139873
                      /gene="rps7"
      CDS             139406..139873

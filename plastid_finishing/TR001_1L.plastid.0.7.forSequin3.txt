@@ -313,13 +313,24 @@
 			gene	rpl20
 68419	68039	CDS
 			product	ribosomal protein L20
-69278	69138	gene
+69165	138802	gene
 			gene	rps12
-69278	69138	CDS
-			product	ribosomal protein S12, 3
-			note	trans_splicing
-43702	97345	gene
+69165	69278	CDS
+138560	138802
+			product	ribosomal protein S12
+69165	69278	exon
+			number 1
+138560	138802	exon
+			number 2
+69165	97596	gene
 			gene	rps12
+69165	69278	CDS
+97357	97596
+			product	ribosomal protein S12
+69165	69278	exon
+			number 1
+97357	97596	exon
+			number 2
 71443	69434	gene
 			gene	clpP
 71443	71375	CDS
@@ -438,9 +449,9 @@
 			gene	rps7
 96750	96283	CDS
 			product	ribosomal protein S7
-97584	97345	gene
+97596	97357	gene
 			gene	rps12_3end
-97584	97345	CDS
+97596	97357	CDS
 			product	ribosomal protein S12, 3
 98769	98578	gene
 			gene	ycf15
