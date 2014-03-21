@@ -640,10 +640,12 @@ FEATURES             Location/Qualifiers
                      /gene="psbL"
      CDS             complement(63616..63732)
                      /gene="psbL"
+					 /exception="RNA editing"
+					 /note="start codon formed by RNA editing"
                      /codon_start=1
                      /transl_table=11
                      /product="photosystem II protein L"
-                     /translation="-TQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN"
+                     /translation="MTQSNPNEQNVELNRTSLYWGLLLIFVLAVLFSNYFFN"
      gene            complement(63755..63874)
                      /gene="psbF"
      CDS             complement(63755..63874)

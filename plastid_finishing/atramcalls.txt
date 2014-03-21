@@ -1,3 +1,7 @@
- perl aTRAM/aTRAM.pl -sra centaurea_atram/centaurea.atram -target plastid_finishing/IRend.fa -out centaurea_IRend_atram -frac 0.2
+sed -i 's/\r//' plastid_finishing/TR001_1L.plastid.0.7.psbL.fa 
+
+dos2unix file_name                
+ 
+perl aTRAM/aTRAM.pl -sra centaurea_atram/centaurea.atram -target plastid_finishing/IRend.fa -out centaurea_IRend_atram -frac 0.2
 
 perl aTRAM/Postprocessing/PercentCoverage.pl plastid_finishing/IRend.fa centaurea_IRend_atram.all.fasta centaurea_IRend_atram.all
