@@ -14,20 +14,22 @@ spplist <- c("Centaurea diffusa","Artemisia frigida","Jacobaea vulgaris",
              "Guizotia abyssinica","Parthenium argentatum","Helianthus strumosus",
              "Helianthus decapetalus","Helianthus grosseserratus", "Helianthus tuberosus",
              "Helianthus divaricatus", "Helianthus giganteus","Helianthus hirsutus", 
-             "Helianthus maximiliani", "Chrysanthemum indicum", "Chrysanthemum x morifolium")
-# 
+             "Helianthus maximiliani", "Chrysanthemum indicum", "Chrysanthemum x morifolium",
+             "Praxelis clematidea")
+# Praxelis aka Eupatorium catarium
 
 # 
 # Make the tree
 # 
-# species tree with sub-genera detail (minus three species)
+# species tree with sub-genera detail (minus three species: parthenium_argentatum, 
+# helianthus_sturmosus, chrysanthemum_xmorifolium)
 # 
 tree <- phylomatic_tree(taxa = spplist, storedtree='smith2011')
 tree$tip.label <- taxize_capwords(tree$tip.label)
 
-# species tree with all of the species 
-tree <- phylomatic_tree(taxa = spplist)
-tree$tip.label <- taxize_capwords(tree$tip.label)
+# # species tree with all of the species 
+# tree <- phylomatic_tree(taxa = spplist)
+# tree$tip.label <- taxize_capwords(tree$tip.label)
 
 
 png("Asteraceae_plastome_treeSmith.png", width=600, height = 600, pointsize = 16)
