@@ -34,7 +34,8 @@ tree$tip.label <- taxize_capwords(tree$tip.label)
 
 png("Asteraceae_plastome_treeSmith.png", width=600, height = 600, pointsize = 16)
 
-plot(tree, cex=0.75, main="Published plastomes from the Asteraceae")
+plot(tree, cex=1.1, main="Plastomes in the Asteraceae")
+rect(14.8, 15.5, 20.2, 16.4, border="#66CC00",lwd=3)
 
 dev.off()
 

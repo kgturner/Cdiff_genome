@@ -11,7 +11,7 @@ library(rworldxtra) # Add-ons for rworldmap.
 #quick redo, color countries, TR001 only
 
 # pdf("KTurnerMap.pdf", useDingbats=FALSE, width=13.38)
-png("popmap_TR001.png", width=1200, height = 600, pointsize = 16)
+png("popmap_TR001.png", width=800, height = 600, pointsize = 16)
 #svg("collectionMap_bw.svg", pointsize = 12)
 # setEPS( horizontal = FALSE, onefile = FALSE, paper = "special") #340 mm is c. 13 in, height and width in in
 # postscript("colMap_bw.eps")
@@ -45,20 +45,7 @@ if ( !setLims )
   ylim <- coordinates(sPointsLims)[,"y"]  
 }
 
-# countries <- as.data.frame(cbind(sPDF$ADMIN))
-# countries$country <- sPDF$ADMIN
-# countries$color <- "lightgray"
-# #countries <- reorder(countries$country, countries$V1)
-# #countries <- unique(countries)
-# 
-# countries[countries$country %in% c("United States of America", "Canada"),]$color <- "red"
-# grayco <- as.vector(countries$color)
-# 
-# mapCountryData(sPDF, nameColumnToPlot="SOVEREIGNT", mapTitle='Global range of C. diffusa', colourPalette=countries$color, borderCol ='gray24',addLegend = FALSE, xlim=xlim, ylim=ylim)
 
-# sPDF <- getMap()
-# #list of country names
-# sPDF$ADMIN
 #setup a color code column filled with 1's
 sPDF$colCode <- 1
 # tst <- sPDF@data
@@ -73,11 +60,13 @@ sPDF$colCode[ which(sPDF$ADMIN %in% c("Poland", "Belarus", "Italy", "Syria", "Cz
                                       "Slovenia", "Serbia","Austria","Belgium", "France",
                                       "Germany","Hungary","Luxembourg","Norway","Slovakia",
                                       "Spain", "United Kingdom", "Kazakhstan", "Turkmenistan", "China"))] <- 4
-# tst <- sPDF@data
-# View(tst)
+
 #create a colour palette - note for each value not for each country
-colourPalette <- c("lightgray","#F8766D","#00BFC4", "cadetblue1")
-# colourPalette <- c("lightgray","lightgray")
+#in order (non highlighted countries, invasive, native, prob. native)
+colourPalette <- c("lightgray","#666699","#66CC00", "#99FF99")
+# colourPalette <- c("lightgray","#F8766D","#00BFC4", "cadetblue1")
+
+
 # spName <- plotmath(italic("Centaurea diffusa"))
 par(mar=c(0,0,0,0))
 mapCountryData(sPDF, nameColumnToPlot="colCode", mapTitle=NA,
@@ -86,78 +75,33 @@ mapCountryData(sPDF, nameColumnToPlot="colCode", mapTitle=NA,
 #note that catMethod defines the breaks and values go in a category if they are <= upper end
 #mapTitle=bquote(Global~range~of~italic(Centaurea)~italic(diffusa)) 
 
-
-# # to plot states you can get data from here :
-# #   http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/10m/cultural/ne_10m_admin_1_states_provinces_shp.zip
-# inHigh <- "ne_10m_admin_1_states_provinces_shp.shp"
-# sPDFhigh <- readShapePoly(inHigh)
-# # attributes <- sPDFhigh@data
-# #test plotting
-# mapPolys(sPDFhigh, nameColumnToPlot='admin', addLegend = FALSE)
-# #then you could subset the countries you want, 
-# sPDFhigh <- sPDFhigh[which(sPDFhigh$ADMIN %in% c("Canada","United States of America","Russia"))]
-# # look up state names & do 
-# mapPolys(sPDFhigh$name ,add=TRUE)
-# # = c("Yukon","British Columbia", "Washington", "Oregon")
-
-# popInv <- read.csv("InvPopCoord_PAG.csv") #includeds transcriptome pop US022
-# popInv.1 <- popInv[popInv$pch!= 1,] #no germ trial 
-# popInv.1 <- popInv.1[popInv.1$pch!=19,] # no broad CG
-# # popInv.1[popInv.1$pch==19,]$pch <- 1
-# popInv.1 <- popInv.1[popInv.1$Pop!="US002",] # array pop and transcriptome pop only
-# 
-# popInv.1[popInv.1$pch==15,]$pch <- 1
-# popInv.1[popInv.1$pch==0,]$pch <- 17
-# coordinates(popInv.1) = c("Longitude", "Latitude")
-# proj4string(popInv.1) <- CRS("+proj=longlat +ellps=WGS84")
-# sPointsDF <- spTransform(popInv.1, CRS=projectionCRS)
-# points(sPointsDF, pch=popInv.1$pch, cex=1.2)
-# 
+# plot TR001
 popNat <- read.csv("NatPopCoord.csv")
-# popNat.1 <- popNat[popNat$pch!=1,] #no germ trial
-# popNat.1 <- popNat.1[popNat.1$pch!=19,] #no broad CG
-# popNat.1 <- popNat.1[popNat.1$Pop!="GR002",] # array pop and transcriptome pop only
-# 
-# # popNat.1[popNat.1$pch==19,]$pch <- 1
-# popNat.1[popNat.1$pch==15,]$pch <- 1
-# popNat.1[popNat.1$Pop=="TR001",]$pch <- 15
-# coordinates(popNat.1) = c("Longitude", "Latitude")
-# proj4string(popNat.1) <- CRS("+proj=longlat +ellps=WGS84")
-# sPointsDFNat <- spTransform(popNat.1, CRS=projectionCRS)
-# points(sPointsDFNat, pch=popNat.1$pch, cex=1.2) #pch2 for triangles
-
-#TR001
 TR001 <- popNat[8,]
 # popNat.1[popNat.1$Pop=="TR001",]$pch <- 15
 coordinates(TR001) = c("Longitude", "Latitude")
 proj4string(TR001) <- CRS("+proj=longlat +ellps=WGS84")
 sPointsDFNat <- spTransform(TR001, CRS=projectionCRS)
 points(sPointsDFNat, pch=TR001$pch, cex=1.2) #pch2 for triangles
+text(sPointsDFNat, labels = sPointsDFNat$Pop, cex=1.2, pos=3)
 
-
+#lat long
 llgridlines(sPDF, easts=c(-90,-180,0,90,180), norths=seq(0,90,by=15), 
             plotLabels=FALSE, ndiscr=1000) #ndiscr=num points in lines
-#lat markings...
-
 markings <- data.frame(Latitude=as.numeric(c(75,60,45,30,15,85,85)), Longitude=as.numeric(c(-45,-45,-45,-45,-45,0,180)),name=c("75", "60","45","30","15","0","180"))
 coordinates(markings) = c("Longitude", "Latitude")
 proj4string(markings) <- CRS("+proj=longlat +ellps=WGS84")
 sPointsDFmark <- spTransform(markings, CRS=projectionCRS)
 text(sPointsDFmark, labels = sPointsDFmark$name, cex=1.2) #pch2 for triangles
 
-# pole <- data.frame(x=0, y=90)
-# coordinates(pole) = c("x", "y")
-# proj4string(pole) <- CRS("+proj=longlat +ellps=WGS84")
-# pole <- spTransform(pole, CRS=projectionCRS)
-# points(pole, pch=8, cex=2, lwd=2)
-
-legend("bottomleft", c("Genome and transcriptome","Transcriptome only","Differential expression"), 
-       pch=c(15,17,1),  bg="white", title = "Sampled populations", cex=1.5)
-legend("topright", c("Invasive", "Native","Present, status unknown"), fill=c("#F8766D","#00BFC4", "cadetblue1"),
-       title="Origin", bg="white", cex=1.5)
+#legends
+# legend("bottomleft", c("Genome and transcriptome","Transcriptome only","Differential expression"), 
+#        pch=c(15,17,1),  bg="white", title = "Sampled populations", cex=1.5)
+legend("bottomleft", c("Invasive", "Native","Present, status unknown"), fill=c("#666699","#66CC00", "#99FF99"),
+       title="Range", bg="white", cex=1.5)
 box(lty="solid", col = "black")
 # #shameless plug !
-# mtext("map made using rworldmap", line=-1, side=1, adj=1, cex=0.6)
+mtext("map made using rworldmap", line=-1, side=1, adj=1, cex=0.6)
 
 # 
 dev.off()
