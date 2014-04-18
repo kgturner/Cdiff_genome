@@ -8,7 +8,9 @@ library(XML)
 library(reshape2)
 
 # Define a species list
-# 
+#from Nucleotide search at https://www.ncbi.nlm.nih.gov/nuccore/
+# ("Asteraceae"[Organism] OR ("Asteraceae"[Organism] OR Asteraceae[All Fields])) AND chloroplast[All Fields] AND complete[All Fields] AND genome[All Fields]
+# visually scan for length of sequence and statement "complete chloroplast" or "complete plastid"
 spplist <- c("Centaurea diffusa","Artemisia frigida","Jacobaea vulgaris",
              "Ageratina adenophora","Lactuca sativa","Helianthus annuus",
              "Guizotia abyssinica","Parthenium argentatum","Helianthus strumosus",
